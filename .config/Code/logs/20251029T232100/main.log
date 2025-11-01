@@ -1,0 +1,32 @@
+2025-10-29 23:21:00.812 [info] update#setState idle
+2025-10-29 23:21:30.811 [info] update#setState checking for updates
+2025-10-29 23:21:31.863 [info] update#setState idle
+2025-10-30 00:21:30.815 [info] update#setState checking for updates
+2025-10-30 00:21:31.474 [info] update#setState idle
+2025-10-30 01:00:56.448 [error] CodeWindow: failed to load (reason: <unknown>, code: -3)
+2025-10-30 01:21:30.820 [info] update#setState checking for updates
+2025-10-30 01:21:31.559 [info] update#setState idle
+2025-10-30 01:38:09.321 [info] Extension host with pid 149167 exited with code: 0, signal: unknown.
+2025-10-30 01:38:09.387 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 149182]: crashed with code 15 and reason 'killed'
+2025-10-30 02:21:30.826 [info] update#setState checking for updates
+2025-10-30 02:21:31.431 [info] update#setState idle
+2025-10-30 03:21:30.829 [info] update#setState checking for updates
+2025-10-30 03:21:31.465 [info] update#setState idle
+2025-10-30 04:21:30.830 [info] update#setState checking for updates
+2025-10-30 04:21:31.492 [info] update#setState idle
+2025-10-30 05:21:30.832 [info] update#setState checking for updates
+2025-10-30 05:21:31.463 [info] update#setState idle
+2025-10-30 06:21:30.836 [info] update#setState checking for updates
+2025-10-30 06:21:31.471 [info] update#setState idle
+2025-10-30 07:21:30.841 [info] update#setState checking for updates
+2025-10-30 07:21:31.632 [info] update#setState idle
+2025-10-30 08:21:30.845 [info] update#setState checking for updates
+2025-10-30 08:21:31.607 [info] update#setState idle
+2025-10-30 09:21:30.851 [info] update#setState checking for updates
+2025-10-30 09:21:31.469 [info] update#setState idle
+2025-10-30 10:21:30.856 [info] update#setState checking for updates
+2025-10-30 10:21:31.504 [info] update#setState idle
+2025-10-30 11:21:30.859 [info] update#setState checking for updates
+2025-10-30 11:21:31.485 [info] update#setState idle
+2025-10-30 12:21:30.863 [info] update#setState checking for updates
+2025-10-30 12:21:31.577 [info] update#setState idle

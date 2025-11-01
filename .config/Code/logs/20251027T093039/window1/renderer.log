@@ -1,0 +1,78 @@
+2025-10-27 09:30:40.110 [info] Started local extension host with pid 45651.
+2025-10-27 09:30:40.521 [error] Extension 'openai.chatgpt' wants API proposal 'languageModelProxy' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-10-27 09:30:40.521 [error] Extension 'openai.chatgpt CANNOT USE these API proposals 'chatSessionsProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-10-27 09:30:42.223 [info] MCP Registry configured: https://api.mcp.github.com/2025-09-15
+2025-10-27 09:30:42.367 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-27 09:30:43.080 [info] [perf] Render performance baseline is 31ms
+2025-10-27 10:13:19.955 [error] [Extension Host] (node:45651) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-10-27 10:14:46.398 [error] [Extension Host] (node:45651) [DEP0051] DeprecationWarning: The `util.isNullOrUndefined` API is deprecated. Please use `arg === null || arg === undefined` instead.
+2025-10-27 10:41:15.379 [error] [text file model] handleSaveError(331) - exit - resulted in a save error: Error: Unable to write file '/home/friz/programming/code/personal/agent-base/README.md' (Error: File Modified Since) file:///home/friz/programming/code/personal/agent-base/README.md
+2025-10-27 10:45:15.133 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-10-27 10:45:15.135 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-10-27 11:05:55.629 [error] [text file model] handleSaveError(43) - exit - resulted in a save error: Error: Unable to write file '/home/friz/programming/code/personal/agent-base/.gitignore' (Error: File Modified Since) file:///home/friz/programming/code/personal/agent-base/.gitignore
+2025-10-27 11:24:06.808 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-10-27 11:27:05.489 [error] Unknown (FileSystemError): Failed to move 'data' to the trash (Failed to move item to trash)
+    at v7.create (file:///usr/share/code/resources/app/out/main.js:38:29705)
+    at Qi (file:///usr/share/code/resources/app/out/main.js:38:26959)
+    at y4.z (file:///usr/share/code/resources/app/out/main.js:62:26564)
+2025-10-27 11:27:05.496 [error] Failed to move 'data' to the trash (Failed to move item to trash): Unknown (FileSystemError): Failed to move 'data' to the trash (Failed to move item to trash)
+    at v7.create (file:///usr/share/code/resources/app/out/main.js:38:29705)
+    at Qi (file:///usr/share/code/resources/app/out/main.js:38:26959)
+    at y4.z (file:///usr/share/code/resources/app/out/main.js:62:26564)
+2025-10-27 11:27:07.353 [error] NoPermissions (FileSystemError): Error: EACCES: permission denied, rmdir '/home/friz/programming/code/personal/agent-base/data/ollama'
+    at v7.create (file:///usr/share/code/resources/app/out/main.js:38:29705)
+    at Qi (file:///usr/share/code/resources/app/out/main.js:38:26959)
+    at _c.jb (file:///usr/share/code/resources/app/out/main.js:62:22448)
+    at _c.delete (file:///usr/share/code/resources/app/out/main.js:62:20569)
+2025-10-27 11:27:07.361 [error] Error: EACCES: permission denied, rmdir '/home/friz/programming/code/personal/agent-base/data/ollama': NoPermissions (FileSystemError): Error: EACCES: permission denied, rmdir '/home/friz/programming/code/personal/agent-base/data/ollama'
+    at v7.create (file:///usr/share/code/resources/app/out/main.js:38:29705)
+    at Qi (file:///usr/share/code/resources/app/out/main.js:38:26959)
+    at _c.jb (file:///usr/share/code/resources/app/out/main.js:62:22448)
+    at _c.delete (file:///usr/share/code/resources/app/out/main.js:62:20569)
+2025-10-27 11:28:35.252 [error] Collection or definition not found for ms-python.vscode-pylance/pylanceMcp and ms-python.vscode-pylance/pylance mcp server: Error: Collection or definition not found for ms-python.vscode-pylance/pylanceMcp and ms-python.vscode-pylance/pylance mcp server
+    at qct.resolveConnection (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2240:2218)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2240:13693
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:73168
+2025-10-27 11:28:35.751 [error] [UriError]: Scheme contains illegal characters.: Error: [UriError]: Scheme contains illegal characters.
+    at z6 (file:///usr/share/code/resources/app/out/main.js:30:64302)
+    at new nd (file:///usr/share/code/resources/app/out/main.js:30:67682)
+    at new zr (file:///usr/share/code/resources/app/out/main.js:30:69120)
+    at nd.revive (file:///usr/share/code/resources/app/out/main.js:30:68897)
+    at o5.call (file:///usr/share/code/resources/app/out/main.js:88:105739)
+    at Lf.s (file:///usr/share/code/resources/app/out/main.js:31:14859)
+    at Lf.q (file:///usr/share/code/resources/app/out/main.js:31:14382)
+    at Xo.value (file:///usr/share/code/resources/app/out/main.js:31:13784)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2373)
+    at P.D (file:///usr/share/code/resources/app/out/main.js:30:2443)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2660)
+    at Xo.value (file:///usr/share/code/resources/app/out/main.js:28:5145)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2591)
+    at Xo.value (file:///usr/share/code/resources/app/out/main.js:28:5333)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2591)
+    at F (file:///usr/share/code/resources/app/out/main.js:28:7627)
+    at IpcMainImpl.i (file:///usr/share/code/resources/app/out/main.js:36:10776)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106370)
+    at Session.emit (node:events:519:28)
+2025-10-27 11:32:58.129 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-27 11:51:29.400 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-27 12:16:14.520 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-10-27 17:40:20.764 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-27 17:50:50.716 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-27 18:04:22.614 [error] Cancelled: Canceled: Canceled
+    at BJe.P (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1352:36760)
+    at async BJe.O (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1352:35489)
+    at async BJe.D (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1352:24298)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1352:23769
+    at async Promise.all (index 1)
+    at async BJe.C (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1352:23720)
+    at async BJe.getExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1352:22377)
+    at async Hht.getExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2485:15150)
+    at async kqs.Rc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2481:17026)
+    at async kqs.$c (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2481:19670)
+2025-10-27 19:36:14.828 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-27 19:40:22.325 [error] An unknown error occurred. Please consult the log for more details.
+2025-10-27 19:40:56.117 [error] An unknown error occurred. Please consult the log for more details.

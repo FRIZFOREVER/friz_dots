@@ -1,0 +1,10 @@
+2025-10-27 07:13:32.389 [info] Started local extension host with pid 5670.
+2025-10-27 07:13:32.908 [error] Extension 'openai.chatgpt' wants API proposal 'languageModelProxy' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-10-27 07:13:32.909 [error] Extension 'openai.chatgpt CANNOT USE these API proposals 'chatSessionsProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-10-27 07:13:33.805 [info] MCP Registry configured: https://api.mcp.github.com/2025-09-15
+2025-10-27 07:13:33.865 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-27 07:13:35.324 [info] [perf] Render performance baseline is 30ms
+2025-10-27 08:19:03.767 [error] [Extension Host] (node:5670) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-10-27 08:19:39.796 [error] [text file model] handleSaveError(0) - exit - resulted in a save error: Error: Unable to write file '/home/friz/programming/code/personal/agent-base/compose.yml' (Error: File Modified Since) file:///home/friz/programming/code/personal/agent-base/compose.yml
+2025-10-27 08:51:43.652 [error] [Extension Host] (node:5670) [DEP0051] DeprecationWarning: The `util.isNullOrUndefined` API is deprecated. Please use `arg === null || arg === undefined` instead.

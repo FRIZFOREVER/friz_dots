@@ -1,0 +1,38 @@
+2025-10-29 23:08:01.204 [info] Getting Manifest... openai.chatgpt
+2025-10-29 23:08:01.870 [info] Installing extension: openai.chatgpt {"productVersion":{"version":"1.105.1","date":"2025-10-14T22:33:36.618Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/friz/.vscode/extensions/extensions.json","path":"/home/friz/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-10-29 23:08:08.479 [info] Extension signature verification result for openai.chatgpt: Success. Internal Code: 0. Executed: true. Duration: 1655ms.
+2025-10-29 23:08:09.055 [info] Extracted extension to file:///home/friz/.vscode/extensions/openai.chatgpt-0.4.31-linux-x64: openai.chatgpt
+2025-10-29 23:08:09.063 [info] Renamed to /home/friz/.vscode/extensions/openai.chatgpt-0.4.31-linux-x64
+2025-10-29 23:08:09.090 [info] Marked extension as removed openai.chatgpt-0.4.26-linux-x64
+2025-10-29 23:08:09.109 [info] Extension installed successfully: openai.chatgpt vscode-userdata:/home/friz/.vscode/extensions/extensions.json
+2025-10-29 23:18:18.122 [info] Getting Manifest... ms-vscode-remote.remote-containers
+2025-10-29 23:18:18.720 [info] Installing extension: ms-vscode-remote.remote-containers {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/friz/.vscode/extensions/extensions.json","path":"/home/friz/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.105.1","date":"2025-10-14T22:33:36.618Z"}}
+2025-10-29 23:18:21.271 [info] Extension signature verification result for ms-vscode-remote.remote-containers: Success. Internal Code: 0. Executed: true. Duration: 754ms.
+2025-10-29 23:18:21.401 [info] Extracted extension to file:///home/friz/.vscode/extensions/ms-vscode-remote.remote-containers-0.427.0: ms-vscode-remote.remote-containers
+2025-10-29 23:18:21.411 [info] Renamed to /home/friz/.vscode/extensions/ms-vscode-remote.remote-containers-0.427.0
+2025-10-29 23:18:21.440 [info] Extension installed successfully: ms-vscode-remote.remote-containers vscode-userdata:/home/friz/.vscode/extensions/extensions.json
+2025-10-29 23:18:53.661 [info] Getting Manifest... ms-windows-ai-studio.windows-ai-studio
+2025-10-29 23:18:54.232 [info] Installing extension: ms-windows-ai-studio.windows-ai-studio {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/friz/.vscode/extensions/extensions.json","path":"/home/friz/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.105.1","date":"2025-10-14T22:33:36.618Z"}}
+2025-10-29 23:18:54.530 [info] Getting Manifest... teamsdevapp.vscode-ai-foundry
+2025-10-29 23:18:55.226 [info] Getting Manifest... ms-azuretools.vscode-azureresourcegroups
+2025-10-29 23:18:55.786 [info] Installing extension: teamsdevapp.vscode-ai-foundry {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/friz/.vscode/extensions/extensions.json","path":"/home/friz/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.105.1","date":"2025-10-14T22:33:36.618Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-10-29 23:18:55.787 [info] Installing extension: ms-azuretools.vscode-azureresourcegroups {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/friz/.vscode/extensions/extensions.json","path":"/home/friz/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.105.1","date":"2025-10-14T22:33:36.618Z"},"installGivenVersion":false,"context":{"dependecyOrPackExtensionInstall":true}}
+2025-10-29 23:18:57.854 [info] Extension signature verification result for ms-azuretools.vscode-azureresourcegroups: Success. Internal Code: 0. Executed: true. Duration: 756ms.
+2025-10-29 23:18:58.064 [info] Extracted extension to file:///home/friz/.vscode/extensions/ms-azuretools.vscode-azureresourcegroups-0.11.5: ms-azuretools.vscode-azureresourcegroups
+2025-10-29 23:18:58.082 [info] Renamed to /home/friz/.vscode/extensions/ms-azuretools.vscode-azureresourcegroups-0.11.5
+2025-10-29 23:18:58.261 [info] Extension signature verification result for teamsdevapp.vscode-ai-foundry: Success. Internal Code: 0. Executed: true. Duration: 823ms.
+2025-10-29 23:18:58.426 [info] Extracted extension to file:///home/friz/.vscode/extensions/teamsdevapp.vscode-ai-foundry-0.10.6: teamsdevapp.vscode-ai-foundry
+2025-10-29 23:18:58.439 [info] Renamed to /home/friz/.vscode/extensions/teamsdevapp.vscode-ai-foundry-0.10.6
+2025-10-29 23:19:03.209 [info] Extension signature verification result for ms-windows-ai-studio.windows-ai-studio: Success. Internal Code: 0. Executed: true. Duration: 867ms.
+2025-10-29 23:19:04.124 [info] Extracted extension to file:///home/friz/.vscode/extensions/ms-windows-ai-studio.windows-ai-studio-0.24.1-linux-x64: ms-windows-ai-studio.windows-ai-studio
+2025-10-29 23:19:04.146 [info] Renamed to /home/friz/.vscode/extensions/ms-windows-ai-studio.windows-ai-studio-0.24.1-linux-x64
+2025-10-29 23:19:04.176 [info] Extension installed successfully: ms-azuretools.vscode-azureresourcegroups vscode-userdata:/home/friz/.vscode/extensions/extensions.json
+2025-10-29 23:19:04.176 [info] Extension installed successfully: teamsdevapp.vscode-ai-foundry vscode-userdata:/home/friz/.vscode/extensions/extensions.json
+2025-10-29 23:19:04.176 [info] Extension installed successfully: ms-windows-ai-studio.windows-ai-studio vscode-userdata:/home/friz/.vscode/extensions/extensions.json
+2025-10-29 23:20:46.376 [info] Uninstalling extension from the profile: ms-windows-ai-studio.windows-ai-studio@0.24.1 vscode-userdata:/home/friz/.vscode/extensions/extensions.json
+2025-10-29 23:20:46.381 [info] Uninstalling extension from the profile: teamsdevapp.vscode-ai-foundry@0.10.6 vscode-userdata:/home/friz/.vscode/extensions/extensions.json
+2025-10-29 23:20:46.412 [info] Extensions is already requested to uninstall teamsdevapp.vscode-ai-foundry
+2025-10-29 23:20:46.422 [info] Marked extension as removed ms-windows-ai-studio.windows-ai-studio-0.24.1-linux-x64
+2025-10-29 23:20:46.427 [info] Marked extension as removed teamsdevapp.vscode-ai-foundry-0.10.6
+2025-10-29 23:20:46.614 [info] Successfully uninstalled extension from the profile ms-windows-ai-studio.windows-ai-studio@0.24.1 vscode-userdata:/home/friz/.vscode/extensions/extensions.json
+2025-10-29 23:20:46.615 [info] Successfully uninstalled extension from the profile teamsdevapp.vscode-ai-foundry@0.10.6 vscode-userdata:/home/friz/.vscode/extensions/extensions.json

@@ -1,0 +1,42 @@
+2025-10-26 10:21:39.090 [info] [main] Log level: Info
+2025-10-26 10:21:39.090 [info] [main] Validating found git in: "git"
+2025-10-26 10:21:39.090 [info] [main] Using git "2.51.0" from "git"
+2025-10-26 10:21:39.090 [info] [Model][doInitialScan] Initial repository scan started
+2025-10-26 10:21:39.090 [info] > git rev-parse --show-toplevel [36ms]
+2025-10-26 10:21:39.090 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [6ms]
+2025-10-26 10:21:39.090 [info] [Model][openRepository] Opened repository (path): /home/friz/programming/code/personal/agent-base
+2025-10-26 10:21:39.090 [info] [Model][openRepository] Opened repository (real path): /home/friz/programming/code/personal/agent-base
+2025-10-26 10:21:39.090 [info] [Model][openRepository] Opened repository (kind): repository
+2025-10-26 10:21:39.090 [info] > git rev-parse --show-toplevel [42ms]
+2025-10-26 10:21:39.090 [info] > git config --get commit.template [47ms]
+2025-10-26 10:21:39.127 [info] > git rev-parse --show-toplevel [32ms]
+2025-10-26 10:21:39.135 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2025-10-26 10:21:39.136 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-26 10:21:39.156 [info] > git status -z -uall [11ms]
+2025-10-26 10:21:39.156 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-26 10:21:39.195 [info] > git rev-parse --show-toplevel [56ms]
+2025-10-26 10:21:39.203 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-10-26 10:21:39.213 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [20ms]
+2025-10-26 10:21:39.219 [info] > git config --get commit.template [7ms]
+2025-10-26 10:21:39.223 [info] > git config --get --local branch.master.vscode-merge-base [6ms]
+2025-10-26 10:21:39.229 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-10-26 10:21:39.244 [info] > git status -z -uall [6ms]
+2025-10-26 10:21:39.244 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [16ms]
+2025-10-26 10:21:39.252 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [9ms]
+2025-10-26 10:21:39.273 [info] > git merge-base refs/heads/master refs/remotes/origin/master [12ms]
+2025-10-26 10:21:39.279 [info] > git merge-base refs/heads/master refs/remotes/origin/master [29ms]
+2025-10-26 10:21:39.285 [info] > git diff --name-status -z --diff-filter=ADMR 29000a8e192e921f5527747001501c4ca68a2823...refs/remotes/origin/master [6ms]
+2025-10-26 10:21:39.288 [info] > git diff --name-status -z --diff-filter=ADMR 29000a8e192e921f5527747001501c4ca68a2823...refs/remotes/origin/master [2ms]
+2025-10-26 10:21:39.421 [info] > git show --textconv :README.md [5ms]
+2025-10-26 10:21:39.424 [info] > git ls-files --stage -- README.md [4ms]
+2025-10-26 10:21:39.429 [info] > git cat-file -s 824a81b7921354ca345e3dbe0d812758fbcfb502 [1ms]
+2025-10-26 10:21:39.501 [info] > git blame --root --incremental 29000a8e192e921f5527747001501c4ca68a2823 -- README.md [7ms]
+2025-10-26 10:21:39.590 [info] > git check-ignore -v -z --stdin [1ms]
+2025-10-26 10:22:09.174 [info] > git show --textconv :ml/Dockerfile [6ms]
+2025-10-26 10:22:09.175 [info] > git ls-files --stage -- ml/Dockerfile [1ms]
+2025-10-26 10:22:09.181 [info] > git cat-file -s 1cff0764c9c5943ed784e5ae810db839bfcdd6e2 [2ms]
+2025-10-26 10:22:09.197 [info] > git blame --root --incremental 29000a8e192e921f5527747001501c4ca68a2823 -- ml/Dockerfile [3ms]
+2025-10-26 10:22:44.288 [info] > git config --get commit.template [6ms]
+2025-10-26 10:22:44.288 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-10-26 10:22:44.297 [info] > git status -z -uall [4ms]
+2025-10-26 10:22:44.298 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]

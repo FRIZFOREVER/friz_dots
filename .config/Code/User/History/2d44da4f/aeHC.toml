@@ -1,0 +1,21 @@
+[project]
+name = "agent-base"
+version = "0.1.0"
+authors = [
+    { name = "FRIZFOREVER", email = "kirillhromov@mail.ru" }
+]
+requires-python = "==3.12.7"
+dependencies = [
+    "torch<=2.3.1",
+]
+
+[project.scripts]
+agent-base = "agent_base:main"
+
+[[tool.uv.index]]
+url = "https://download.pytorch.org/whl/cu121"
+default = true
+
+[build-system]
+requires = ["uv_build>=0.9.4,<0.10.0"]
+build-backend = "uv_build"

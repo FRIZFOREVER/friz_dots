@@ -1,0 +1,33 @@
+2025-10-27 09:30:39.184 [info] update#setState idle
+2025-10-27 09:31:09.183 [info] update#setState checking for updates
+2025-10-27 09:31:09.265 [info] update#setState idle
+2025-10-27 10:31:09.185 [info] update#setState checking for updates
+2025-10-27 10:31:09.987 [info] update#setState idle
+2025-10-27 11:31:09.191 [info] update#setState checking for updates
+2025-10-27 11:31:09.833 [info] update#setState idle
+2025-10-27 12:31:09.193 [info] update#setState checking for updates
+2025-10-27 12:31:09.835 [info] update#setState idle
+2025-10-27 13:31:09.196 [info] update#setState checking for updates
+2025-10-27 13:31:10.911 [info] update#setState idle
+2025-10-27 14:31:09.200 [info] update#setState checking for updates
+2025-10-27 14:31:09.826 [info] update#setState idle
+2025-10-27 15:31:09.202 [info] update#setState checking for updates
+2025-10-27 15:31:09.828 [info] update#setState idle
+2025-10-27 16:31:09.204 [info] update#setState checking for updates
+2025-10-27 16:31:09.953 [info] update#setState idle
+2025-10-27 17:31:09.208 [info] update#setState checking for updates
+2025-10-27 17:31:09.826 [info] update#setState idle
+2025-10-27 18:31:09.210 [info] update#setState checking for updates
+2025-10-27 18:31:09.917 [info] update#setState idle
+2025-10-27 19:31:09.212 [info] update#setState checking for updates
+2025-10-27 19:31:09.924 [info] update#setState idle
+2025-10-27 19:35:35.213 [info] Extension host with pid 194809 exited with code: 0, signal: unknown.
+2025-10-27 19:35:35.280 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 194824]: crashed with code 15 and reason 'killed'
+2025-10-27 20:31:09.214 [info] update#setState checking for updates
+2025-10-27 20:31:09.802 [info] update#setState idle
+2025-10-27 21:31:09.215 [info] update#setState checking for updates
+2025-10-27 21:31:09.778 [info] update#setState idle
+2025-10-27 22:31:09.216 [info] update#setState checking for updates
+2025-10-27 22:31:09.881 [info] update#setState idle
+2025-10-27 23:31:09.218 [info] update#setState checking for updates
+2025-10-27 23:31:09.906 [info] update#setState idle

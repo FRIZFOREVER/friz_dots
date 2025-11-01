@@ -1,0 +1,51 @@
+{
+  "terminal.integrated.allowChords": false,
+  "terminal.integrated.automationProfile.linux": {},
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/.venv": true,
+    "**/*.pyc": true
+  },
+  "search.exclude": {
+    "**/__pycache__": true,
+    "**/.pytest_cache": true,
+    "**/*.pyc": true
+  },
+
+  "workbench.colorTheme": "Default Light+",
+  "editor.fontSize": 16,
+
+  "editor.semanticHighlighting.enabled": true,
+
+  "workbench.colorCustomizations": {
+    "editor.background": "#FFF0E0",
+    "editor.foreground": "#2B2A33",
+
+    "editorLineNumber.foreground": "#8A7F90",
+    "editorLineNumber.activeForeground": "#2B2A33",
+
+    "editorCursor.foreground": "#3D348B",
+
+    "editor.selectionBackground": "#7678ED66",
+    "editor.inactiveSelectionBackground": "#7678ED33",
+
+    "editorIndentGuide.background1": "#E9D5CB",
+    "editorIndentGuide.activeBackground1": "#E9D5CB",
+    "editorWhitespace.foreground": "#E9D5CB",
+
+    "editorBracketHighlight.foreground1": "#7678ED",
+    "editorBracketHighlight.foreground2": "#3D348B",
+    "editorBracketHighlight.foreground3": "#E2556C",
+    "editorBracketPairGuide.activeBackground1": "#7678ED33",
+    "editorBracketPairGuide.activeBackground2": "#3D348B33",
+
+    "statusBar.background": "#FFE8D6",
+    "statusBar.foreground": "#2B2A33",
+    "activityBar.background": "#FFE8D6",
+    "activityBar.foreground": "#2B2A33",
+    "sideBar.background": "#FFE8D6",
+    "sideBar.foreground": "#2B2A33",
+    "titleBar.activeBackground": "#FFE8D6",
+    "titleBar.activeForeground": "#2B2A33",
+    "panel.background": "#FFE8D6",

@@ -1,0 +1,40 @@
+2025-10-27 17:54:04.859 [info] Starting Python Locator /home/friz/.vscode/extensions/ms-python.python-2025.16.0-linux-x64/python-env-tools/bin/pet server
+2025-10-27 17:54:05.550 [info] Discovered manager: (Pyenv) /home/friz/.pyenv/bin/pyenv
+2025-10-27 17:54:05.589 [info] Discovered env: /home/friz/.pyenv/versions/3.12.7/bin/python
+2025-10-27 17:54:05.625 [info] Discovered env: /usr/bin/python
+2025-10-27 17:54:05.638 [info] Env ("/home/friz/.local/bin/python3.11") in Path resolved as ResolvedPythonEnv { executable: "/home/friz/.local/bin/python3.11", prefix: "/home/friz/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu", version: "3.11.14.final.0", is64_bit: true, symlinks: Some(["/home/friz/.local/bin/python3.11"]) } and reported as Some(GlobalPaths)
+2025-10-27 17:54:05.638 [info] Discovered env: /home/friz/.local/bin/python3.11
+2025-10-27 17:54:05.668 [info] Discovered env: /bin/python
+2025-10-27 17:54:05.672 [info] Env ("/home/friz/.local/bin/python3.11") in Path resolved as ResolvedPythonEnv { executable: "/home/friz/.local/bin/python3.11", prefix: "/home/friz/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu", version: "3.11.14.final.0", is64_bit: true, symlinks: Some(["/home/friz/.local/bin/python3.11"]) } and reported as Some(GlobalPaths)
+2025-10-27 17:54:05.673 [info] Env ("/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-10-27 17:54:05.673 [info] Discovered env: /sbin/python
+2025-10-27 17:54:05.679 [info] Env ("/usr/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-10-27 17:54:05.679 [info] Discovered env: /usr/sbin/python
+2025-10-27 17:54:05.685 [info] Env ("/home/friz/.local/bin/python3.12") in Path resolved as ResolvedPythonEnv { executable: "/home/friz/.local/bin/python3.12", prefix: "/home/friz/.local/share/uv/python/cpython-3.12.7-linux-x86_64-gnu", version: "3.12.7.final.0", is64_bit: true, symlinks: Some(["/home/friz/.local/bin/python3.12"]) } and reported as Some(GlobalPaths)
+2025-10-27 17:54:05.686 [info] Discovered env: /home/friz/.local/bin/python3.12
+2025-10-27 17:54:05.688 [info] Env ("/home/friz/.local/bin/python3.12") in Path resolved as ResolvedPythonEnv { executable: "/home/friz/.local/bin/python3.12", prefix: "/home/friz/.local/share/uv/python/cpython-3.12.7-linux-x86_64-gnu", version: "3.12.7.final.0", is64_bit: true, symlinks: Some(["/home/friz/.local/bin/python3.12"]) } and reported as Some(GlobalPaths)
+2025-10-27 17:54:05.691 [info] Env ("/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-10-27 17:54:05.692 [info] Discovered env: /sbin/python3
+2025-10-27 17:54:05.698 [info] Env ("/usr/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-10-27 17:54:05.698 [info] Discovered env: /usr/sbin/python3
+2025-10-27 17:54:05.704 [info] Env ("/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-10-27 17:54:05.704 [info] Discovered env: /sbin/python3.13
+2025-10-27 17:54:05.709 [info] Env ("/usr/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-10-27 17:54:05.711 [info] Discovered env: /usr/sbin/python3.13
+2025-10-27 17:54:05.719 [info] Locator Conda took 237.964065ms
+2025-10-27 17:54:05.730 [info] Locator Homebrew took 2.370206ms
+2025-10-27 17:54:05.732 [info] Locator LinuxGlobal took 291.328012ms
+2025-10-27 17:54:05.800 [info] Locator PipEnv took 4.023808ms
+2025-10-27 17:54:05.826 [info] Locator Pixi took 39.441µs
+2025-10-27 17:54:05.827 [info] Locator Poetry took 231.16µs
+2025-10-27 17:54:05.828 [info] Locator PyEnv took 23.768127ms
+2025-10-27 17:54:05.828 [info] Locator Venv took 40.634µs
+2025-10-27 17:54:05.828 [info] Locator VirtualEnv took 239.419µs
+2025-10-27 17:54:05.828 [info] Locator VirtualEnvWrapper took 58.901µs
+2025-10-27 17:54:05.828 [info] Locator GlobalVirtualEnvs took 743.714µs
+2025-10-27 17:54:05.828 [info] Locator Locators took 298.316617ms
+2025-10-27 17:54:05.828 [info] Locator Path took 440.968239ms
+2025-10-27 17:54:05.829 [info] Locator Workspaces took 17.794508ms
+2025-10-27 17:54:05.829 [info] Refresh completed in 441ms
+2025-10-27 17:54:05.831 [info] Resolved Python Environment /bin/python
+2025-10-27 17:56:49.583 [info] Resolved Python Environment /bin/python

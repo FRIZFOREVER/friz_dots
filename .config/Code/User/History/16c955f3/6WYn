@@ -1,0 +1,53 @@
+# Python 3.13 + uv on Debian bookworm-slim
+FROM ghcr.io/astral-sh/uv:python3.13-bookworm-slim
+
+# ---- Non-root user (fixed ids to simplify mounts later if needed)
+RUN groupadd --system --gid 999 app \
+ && useradd  --system --gid 999 --uid 999 --create-home appuser
+
+# Install the project into /app
+WORKDIR /app
+
+# uv performance/behavior
+ENV UV_COMPILE_BYTECODE=1 \
+    UV_LINK_MODE=copy
+
+# Python runtime flags + your app config
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PYTHONFAULTHANDLER=1 \
+    CHAT_MODEL_REPO=Qwen/Qwen3-0.6B
+
+# ---- Install dependencies only (great cache); run as root; use root cache dir
+RUN --mount=type=cache,target=/root/.cache/uv \
+    --mount=type=bind,source=uv.lock,target=uv.lock \
+    --mount=type=bind,source=pyproject.toml,target=pyproject.toml \
+    uv sync --locked --no-install-project --no-dev
+
+# ---- Add source code, then install the project itself
+# (separate layer to maximize cache reuse)
+COPY . /app
+RUN --mount=type=cache,target=/root/.cache/uv \
+    uv sync --locked --no-dev
+
+# Put the venv on PATH (uv creates /app/.venv)
+ENV PATH="/app/.venv/bin:${PATH}"
+
+# Healthcheck / labels / port
+HEALTHCHECK --interval=30s --timeout=3s --start-period=10s --retries=3 \
+  CMD ["python","-c","import sys,urllib.request,json; r=urllib.request.urlopen('http://127.0.0.1:8000/healthz', timeout=2); sys.exit(0 if (r.status==200 and json.loads(r.read().decode()).get('status')=='ok') else 1)"]
+
+LABEL org.opencontainers.image.title="fastapi-demo" \
+      org.opencontainers.image.description="FastAPI service (Python 3.13, uv sync, non-root)" \
+      org.opencontainers.image.base.name="ghcr.io/astral-sh/uv:python3.13-bookworm-slim"
+
+EXPOSE 8000
+
+# Reset entrypoint (uv docs do this); we’ll run uvicorn directly
+ENTRYPOINT ["uvicorn"]
+
+# Run as non-root for the actual app
+USER appuser
+
+# Production start command (your layout uses src/main.py)
+CMD ["--app-dir", "src", "main:app", "--host", "0.0.0.0", "--port", "8000"]

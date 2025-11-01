@@ -1,0 +1,15 @@
+{
+  "environment": {
+    "executable": "/home/friz/programming/code/personal/agent-base/ml/.venv/bin/python",
+    "prefix": "/home/friz/programming/code/personal/agent-base/ml/.venv",
+    "version": "3.13.7.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/home/friz/programming/code/personal/agent-base/ml/.venv/bin/activate",
+      "/home/friz/programming/code/personal/agent-base/ml/.venv/bin/python",
+      "/home/friz/programming/code/personal/agent-base/ml/.venv/bin/python3",
+      "/home/friz/programming/code/personal/agent-base/ml/.venv/bin/python3.13"
+    ]
+  },
+  "symlinks": []
+}

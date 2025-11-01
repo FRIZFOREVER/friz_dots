@@ -1,0 +1,11 @@
+2025-10-27 12:16:14.518 [error] #48: https://main.vscode-cdn.net/extensions/chat.json - error GET Failed to fetch
+2025-10-27 18:04:22.609 [error] #122: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-vscode-remote/remote-containers/latest - error GET Canceled
+2025-10-27 18:04:22.609 [error] #123: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/github/copilot/latest - error GET Canceled
+2025-10-27 18:04:22.610 [error] #124: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/donjayamanne/githistory/latest - error GET Canceled
+2025-10-27 18:04:22.610 [error] #125: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/eamodio/gitlens/latest - error GET Canceled
+2025-10-27 18:04:22.610 [error] #126: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/davidanson/vscode-markdownlint/latest - error GET Canceled
+2025-10-27 18:04:22.611 [error] #127: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-kubernetes-tools/vscode-kubernetes-tools/latest - error GET Canceled
+2025-10-27 18:04:22.611 [error] #128: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/ms-windows-ai-studio/windows-ai-studio/latest - error GET Canceled
+2025-10-27 18:04:22.611 [error] #129: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/johnstoncode/svn-scm/latest - error GET Canceled
+2025-10-27 18:04:22.611 [error] #130: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/mrcrowl/hg/latest - error GET Canceled
+2025-10-27 18:04:22.611 [error] #131: https://marketplace.visualstudio.com/_apis/public/gallery/vscode/vscodevim/vim/latest - error GET Canceled

@@ -1,0 +1,7 @@
+2025-11-01 03:06:18.147 [info] Getting Manifest... openai.chatgpt
+2025-11-01 03:06:18.860 [info] Installing extension: openai.chatgpt {"productVersion":{"version":"1.105.1","date":"2025-10-14T22:33:36.618Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/friz/.vscode/extensions/extensions.json","path":"/home/friz/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2025-11-01 03:06:23.554 [info] Extension signature verification result for openai.chatgpt: Success. Internal Code: 0. Executed: true. Duration: 784ms.
+2025-11-01 03:06:24.017 [info] Extracted extension to file:///home/friz/.vscode/extensions/openai.chatgpt-0.4.34-linux-x64: openai.chatgpt
+2025-11-01 03:06:24.029 [info] Renamed to /home/friz/.vscode/extensions/openai.chatgpt-0.4.34-linux-x64
+2025-11-01 03:06:24.047 [info] Marked extension as removed openai.chatgpt-0.4.31-linux-x64
+2025-11-01 03:06:24.059 [info] Extension installed successfully: openai.chatgpt vscode-userdata:/home/friz/.vscode/extensions/extensions.json

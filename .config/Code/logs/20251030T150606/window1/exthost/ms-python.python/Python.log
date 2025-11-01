@@ -1,0 +1,32 @@
+2025-10-30 15:06:11.560 [info] Native locator: Refresh started
+2025-10-30 15:06:11.560 [info] Native locator: Refresh started
+2025-10-30 15:06:12.118 [info] > conda info --json
+2025-10-30 15:06:12.133 [info] > /usr/share/anaconda/bin/conda info --json
+2025-10-30 15:06:12.166 [info] > ~/.pyenv/bin/pyenv which python
+2025-10-30 15:06:12.166 [info] cwd: .
+2025-10-30 15:06:12.427 [info] Pyenv environment manager found at: /home/friz/.pyenv/bin/pyenv
+2025-10-30 15:06:12.493 [info] Native locator: Refresh finished in 1811 ms
+2025-10-30 15:06:12.497 [info] Python interpreter path: ./ml/.venv/bin/python
+2025-10-30 15:06:14.050 [info] Starting Pylance language server.
+2025-10-30 15:09:21.327 [info] Running installed packages checker:  {
+  id: '/home/friz/programming/code/personal/agent-base/ml/.venv/bin/python',
+  sysPrefix: '/home/friz/programming/code/personal/agent-base/ml/.venv',
+  envType: 'Venv',
+  envName: 'ml',
+  envPath: '/home/friz/programming/code/personal/agent-base/ml/.venv/bin/python',
+  path: '/home/friz/programming/code/personal/agent-base/ml/.venv/bin/python',
+  architecture: 3,
+  sysVersion: '',
+  version: {
+    raw: '3.13.7',
+    major: 3,
+    minor: 13,
+    patch: 7,
+    build: [],
+    prerelease: []
+  },
+  displayName: 'Python 3.13.7 (ml)',
+  detailedDisplayName: 'Python 3.13.7 (ml)',
+  type: 'Virtual'
+} /home/friz/.vscode/extensions/ms-python.python-2025.16.0-linux-x64/python_files/installed_check.py /home/friz/programming/code/personal/agent-base/ml/pyproject.toml
+2025-10-30 15:09:21.327 [info] > ./ml/.venv/bin/python ~/.vscode/extensions/ms-python.python-2025.16.0-linux-x64/python_files/installed_check.py ./ml/pyproject.toml

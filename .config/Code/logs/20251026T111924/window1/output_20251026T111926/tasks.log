@@ -1,0 +1,614 @@
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,-f,compose.yml,up,-d,--build,ollama,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,-f,compose.yml,up,-d,--build,ollama,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,-f,compose.yml,up,-d,--build,ollama,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,-f,compose.yml,up,-d,--build,ollama,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,5d0ba49281bcb17115d74a59f6577a302324e691686f177c0c89e74d9c3f6c6f,",
+    "idRandomizer": 0.8621177675563503,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,5d0ba49281bcb17115d74a59f6577a302324e691686f177c0c89e74d9c3f6c6f,",
+    "idRandomizer": 0.8621177675563503,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,5d0ba49281bcb17115d74a59f6577a302324e691686f177c0c89e74d9c3f6c6f,",
+    "idRandomizer": 0.6772351507809887,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,5d0ba49281bcb17115d74a59f6577a302324e691686f177c0c89e74d9c3f6c6f,",
+    "idRandomizer": 0.6772351507809887,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,-f,compose.yml,up,-d,--build,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,-f,compose.yml,up,-d,--build,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,12bbb32d5448e41f775fd2a0360915b733b06aa8f2088b8c8ccade53f242c62f,",
+    "idRandomizer": 0.41001313244911164,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,12bbb32d5448e41f775fd2a0360915b733b06aa8f2088b8c8ccade53f242c62f,",
+    "idRandomizer": 0.41001313244911164,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,873eeca0ca23d25bc6bc9f53bae8c65626d885e9684d0b30bea672118a6c6c9f,",
+    "idRandomizer": 0.6683774509938061,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,873eeca0ca23d25bc6bc9f53bae8c65626d885e9684d0b30bea672118a6c6c9f,",
+    "idRandomizer": 0.6683774509938061,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,f1e80fc1eb9b6393fe30d7b04220d23d7a952fb1df069fb339f7716418f9c88a,",
+    "idRandomizer": 0.6575698162092266,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,f1e80fc1eb9b6393fe30d7b04220d23d7a952fb1df069fb339f7716418f9c88a,",
+    "idRandomizer": 0.6575698162092266,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,7492d7e6ee6264f60091fde3da339e1721ed5bdeab8b0a8d8f0e75b0e511de89,",
+    "idRandomizer": 0.18779256351919482,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,7492d7e6ee6264f60091fde3da339e1721ed5bdeab8b0a8d8f0e75b0e511de89,",
+    "idRandomizer": 0.18779256351919482,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Logs: agent-base-ml-api-1' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,8c1b89e36909370539a137e033d88e4aa9674e6ab97e6f129f2c765f6e384f46,",
+    "idRandomizer": 0.5780419165959112,
+    "problemMatcher": [],
+    "label": "Containers: Logs: agent-base-ml-api-1"
+}
+Error: the task 'Containers: Logs: agent-base-ml-api-1' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,8c1b89e36909370539a137e033d88e4aa9674e6ab97e6f129f2c765f6e384f46,",
+    "idRandomizer": 0.5780419165959112,
+    "problemMatcher": [],
+    "label": "Containers: Logs: agent-base-ml-api-1"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,-f,compose.yml,up,-d,--build,ml-api,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,-f,compose.yml,up,-d,--build,ml-api,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Logs: agent-base-ml-api-1' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,b9bf2c226fa572fbb7f3bb805d523b5959687118e787fff82b1f5a580b3524ed,",
+    "idRandomizer": 0.12107857926266408,
+    "problemMatcher": [],
+    "label": "Containers: Logs: agent-base-ml-api-1"
+}
+Error: the task 'Containers: Logs: agent-base-ml-api-1' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,b9bf2c226fa572fbb7f3bb805d523b5959687118e787fff82b1f5a580b3524ed,",
+    "idRandomizer": 0.12107857926266408,
+    "problemMatcher": [],
+    "label": "Containers: Logs: agent-base-ml-api-1"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,f165a80b52b964bf3ca3bbe887fb2ac65716f81c39f3e7d351866deda2841c3a,",
+    "idRandomizer": 0.2752562516597584,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,f165a80b52b964bf3ca3bbe887fb2ac65716f81c39f3e7d351866deda2841c3a,",
+    "idRandomizer": 0.2752562516597584,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,-f,compose.yml,up,-d,--build,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,-f,compose.yml,up,-d,--build,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,-f,compose.yml,up,-d,--build,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,-f,compose.yml,up,-d,--build,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,49bbfa857d6b45251e4e3593106361bd3196415b517e06e81bf41585b5a77113,",
+    "idRandomizer": 0.3934382480515719,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,49bbfa857d6b45251e4e3593106361bd3196415b517e06e81bf41585b5a77113,",
+    "idRandomizer": 0.3934382480515719,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Logs: agent-base-ollama-init-1' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,2b79e269c8212d761c14d3ba382308ca7dfd7fed3be749a0cbe1f373a016eb15,",
+    "idRandomizer": 0.8131968914000641,
+    "problemMatcher": [],
+    "label": "Containers: Logs: agent-base-ollama-init-1"
+}
+Error: the task 'Containers: Logs: agent-base-ollama-init-1' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,2b79e269c8212d761c14d3ba382308ca7dfd7fed3be749a0cbe1f373a016eb15,",
+    "idRandomizer": 0.8131968914000641,
+    "problemMatcher": [],
+    "label": "Containers: Logs: agent-base-ollama-init-1"
+}
+Error: the task 'Containers: Logs: agent-base-ollama-init-1' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,eeffd4e2363f01319d769953eb524fdb9e43dcea73d4536b28cd534929a92d64,",
+    "idRandomizer": 0.30552613485515734,
+    "problemMatcher": [],
+    "label": "Containers: Logs: agent-base-ollama-init-1"
+}
+Error: the task 'Containers: Logs: agent-base-ollama-init-1' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,eeffd4e2363f01319d769953eb524fdb9e43dcea73d4536b28cd534929a92d64,",
+    "idRandomizer": 0.30552613485515734,
+    "problemMatcher": [],
+    "label": "Containers: Logs: agent-base-ollama-init-1"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,1f58bf72aab5db64ae21fe89788cc9e03fad7e66965ace4089a36b10bd0705a2,",
+    "idRandomizer": 0.1533128885286209,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,1f58bf72aab5db64ae21fe89788cc9e03fad7e66965ace4089a36b10bd0705a2,",
+    "idRandomizer": 0.1533128885286209,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,-f,compose.yml,up,-d,--build,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,-f,compose.yml,up,-d,--build,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,4e69a09146ecd391975df54772b5dcffe4b2f57e9ccb03f9dd9faf96623da995,",
+    "idRandomizer": 0.13397172617756758,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,4e69a09146ecd391975df54772b5dcffe4b2f57e9ccb03f9dd9faf96623da995,",
+    "idRandomizer": 0.13397172617756758,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Logs: agent-base-ollama-init-1' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,5cf5087fdba3f76c7dbb89636272503a740ed09da98e0c7f96794f72204471f2,",
+    "idRandomizer": 0.6073033353536801,
+    "problemMatcher": [],
+    "label": "Containers: Logs: agent-base-ollama-init-1"
+}
+Error: the task 'Containers: Logs: agent-base-ollama-init-1' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,5cf5087fdba3f76c7dbb89636272503a740ed09da98e0c7f96794f72204471f2,",
+    "idRandomizer": 0.6073033353536801,
+    "problemMatcher": [],
+    "label": "Containers: Logs: agent-base-ollama-init-1"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,-f,compose.yml,up,-d,--build,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,-f,compose.yml,up,-d,--build,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,e3ebca4e792446e077f9998130ce8003292c57010a300d43a4e88eed1f91a3d8,",
+    "idRandomizer": 0.29281460669604753,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,e3ebca4e792446e077f9998130ce8003292c57010a300d43a4e88eed1f91a3d8,",
+    "idRandomizer": 0.29281460669604753,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Logs: agent-base-ollama-init-1' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,a13e64b0cbcc91e9559db374dbe3b9e5094de921e6226ec0b8e091fac037a31f,",
+    "idRandomizer": 0.22828208468314304,
+    "problemMatcher": [],
+    "label": "Containers: Logs: agent-base-ollama-init-1"
+}
+Error: the task 'Containers: Logs: agent-base-ollama-init-1' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,a13e64b0cbcc91e9559db374dbe3b9e5094de921e6226ec0b8e091fac037a31f,",
+    "idRandomizer": 0.22828208468314304,
+    "problemMatcher": [],
+    "label": "Containers: Logs: agent-base-ollama-init-1"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,e3ebca4e792446e077f9998130ce8003292c57010a300d43a4e88eed1f91a3d8,",
+    "idRandomizer": 0.3019690801314995,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,e3ebca4e792446e077f9998130ce8003292c57010a300d43a4e88eed1f91a3d8,",
+    "idRandomizer": 0.3019690801314995,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,d1d43956ebf78c4420bbb8c78b3275f64e2ffc94635a19c8a5d6b1ac3ac0a535,",
+    "idRandomizer": 0.24044910571547506,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,d1d43956ebf78c4420bbb8c78b3275f64e2ffc94635a19c8a5d6b1ac3ac0a535,",
+    "idRandomizer": 0.24044910571547506,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Docker Compose' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,compose,--file,/home/friz/programming/code/personal/agent-base/compose.yml,--project-name,agent-base,down,",
+    "problemMatcher": [],
+    "label": "Containers: Docker Compose"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,8c763029bcba7ff54c2d13b7d15843e0c717993160788df9909a5107d8dabf45,",
+    "idRandomizer": 0.3031561660324582,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}
+Error: the task 'Containers: Logs: ollama' neither specifies a command nor a dependsOn property. The task will be ignored. Its definition is:
+{
+    "type": "shell",
+    "id": "shell,docker,logs,--tail,1000,-f,8c763029bcba7ff54c2d13b7d15843e0c717993160788df9909a5107d8dabf45,",
+    "idRandomizer": 0.3031561660324582,
+    "problemMatcher": [],
+    "label": "Containers: Logs: ollama"
+}

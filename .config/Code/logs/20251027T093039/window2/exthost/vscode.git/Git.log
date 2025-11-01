@@ -1,0 +1,57 @@
+2025-10-27 17:54:05.033 [info] [main] Log level: Info
+2025-10-27 17:54:05.033 [info] [main] Validating found git in: "git"
+2025-10-27 17:54:05.033 [info] [main] Using git "2.51.0" from "git"
+2025-10-27 17:54:05.033 [info] [Model][doInitialScan] Initial repository scan started
+2025-10-27 17:54:05.033 [info] > git rev-parse --show-toplevel [8ms]
+2025-10-27 17:54:05.033 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [4ms]
+2025-10-27 17:54:05.033 [info] [Model][openRepository] Opened repository (path): /home/friz/programming/code/hack/MOSPROM_FROGS
+2025-10-27 17:54:05.033 [info] [Model][openRepository] Opened repository (real path): /home/friz/programming/code/hack/MOSPROM_FROGS
+2025-10-27 17:54:05.033 [info] [Model][openRepository] Opened repository (kind): repository
+2025-10-27 17:54:05.033 [info] > git rev-parse --show-toplevel [3ms]
+2025-10-27 17:54:05.033 [info] > git config --get commit.template [16ms]
+2025-10-27 17:54:05.033 [info] > git rev-parse --show-toplevel [13ms]
+2025-10-27 17:54:05.033 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [20ms]
+2025-10-27 17:54:05.033 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/friz/programming/code/hack/MOSPROM_FROGS/.git/refs/remotes/origin/main'
+2025-10-27 17:54:05.033 [info] > git rev-parse --show-toplevel [39ms]
+2025-10-27 17:54:05.033 [info] > git rev-parse refs/remotes/origin/main [36ms]
+2025-10-27 17:54:05.033 [info] > git rev-parse --show-toplevel [17ms]
+2025-10-27 17:54:05.040 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2025-10-27 17:54:05.042 [info] > git status -z -uall [23ms]
+2025-10-27 17:54:05.042 [info] > git rev-parse --show-toplevel [3ms]
+2025-10-27 17:54:05.079 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2025-10-27 17:54:05.089 [info] > git config --get --local branch.main.vscode-merge-base [3ms]
+2025-10-27 17:54:05.097 [info] > git config --get commit.template [17ms]
+2025-10-27 17:54:05.097 [info] > git rev-parse --show-toplevel [24ms]
+2025-10-27 17:54:05.203 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [107ms]
+2025-10-27 17:54:05.268 [info] > git merge-base refs/heads/main refs/remotes/origin/main [57ms]
+2025-10-27 17:54:05.282 [info] > git rev-parse --show-toplevel [93ms]
+2025-10-27 17:54:05.287 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-10-27 17:54:05.409 [info] > git diff --name-status -z --diff-filter=ADMR 2898b1657d0a3452f004392e369565ae9547881d...refs/remotes/origin/main [127ms]
+2025-10-27 17:54:05.410 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [155ms]
+2025-10-27 17:54:05.461 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/friz/programming/code/hack/MOSPROM_FROGS/.git/refs/remotes/origin/main'
+2025-10-27 17:54:05.517 [info] > git check-ignore -v -z --stdin [98ms]
+2025-10-27 17:54:05.519 [info] > git rev-parse refs/remotes/origin/main [58ms]
+2025-10-27 17:54:05.540 [info] > git status -z -uall [13ms]
+2025-10-27 17:54:05.550 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2025-10-27 17:56:48.288 [info] > git config --get commit.template [8ms]
+2025-10-27 17:56:48.293 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2025-10-27 17:56:48.304 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/friz/programming/code/hack/MOSPROM_FROGS/.git/refs/remotes/origin/main'
+2025-10-27 17:56:48.322 [info] > git rev-parse refs/remotes/origin/main [18ms]
+2025-10-27 17:56:48.347 [info] > git status -z -uall [16ms]
+2025-10-27 17:56:48.349 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-27 17:56:50.188 [info] > git show --textconv :docker-compose.yml [11ms]
+2025-10-27 17:56:50.190 [info] > git ls-files --stage -- docker-compose.yml [2ms]
+2025-10-27 17:56:50.198 [info] > git cat-file -s ad5b9c2e7413209d6ab2f10794fe8dda752abb75 [1ms]
+2025-10-27 17:56:53.029 [info] > git blame --root --incremental 2898b1657d0a3452f004392e369565ae9547881d -- docker-compose.yml [3ms]
+2025-10-27 19:34:45.155 [info] > git config --get commit.template [13ms]
+2025-10-27 19:34:45.164 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2025-10-27 19:34:45.181 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/friz/programming/code/hack/MOSPROM_FROGS/.git/refs/remotes/origin/main'
+2025-10-27 19:34:45.185 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2025-10-27 19:34:45.218 [info] > git status -z -uall [20ms]
+2025-10-27 19:34:45.221 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-27 19:35:02.352 [info] > git config --get commit.template [12ms]
+2025-10-27 19:35:02.353 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-10-27 19:35:02.365 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/friz/programming/code/hack/MOSPROM_FROGS/.git/refs/remotes/origin/main'
+2025-10-27 19:35:02.367 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-10-27 19:35:02.383 [info] > git status -z -uall [9ms]
+2025-10-27 19:35:02.385 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]

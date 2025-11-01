@@ -1,0 +1,1 @@
+2025-10-30 15:06:12.162 [error] Failed to set sticky bit on /tmp/friz-code-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/friz-code-zsh'

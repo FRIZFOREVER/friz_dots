@@ -1,0 +1,22 @@
+2025-10-29 23:07:52.681 [info] (Client) Pylance client (2025.9.1) started with python extension (2025.16.0)
+2025-10-29 23:07:53.535 [info] (141734) Server root directory: file:///home/friz/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-10-29 23:07:53.536 [info] (141734) Pylance language server 2025.9.1 (pyright version 1.1.406, commit 20aa20a1) starting
+2025-10-29 23:07:53.542 [info] (141734) Starting service instance "agent-base" for workspace "/home/friz/programming/code/personal/agent-base"
+2025-10-29 23:07:53.682 [info] (141734) Starting Mcp server id:4854 ...
+2025-10-29 23:07:53.739 [info] (141734) Setting environmentName for service "agent-base": "3.13.7 (ml venv)"
+2025-10-29 23:07:53.778 [info] (141734) Setting pythonPath for service "agent-base": "/home/friz/programming/code/personal/agent-base/ml/.venv/bin/python"
+2025-10-29 23:07:53.791 [info] (141734) No include entries specified; assuming /home/friz/programming/code/personal/agent-base
+2025-10-29 23:07:53.791 [info] (141734) Auto-excluding **/node_modules
+2025-10-29 23:07:53.793 [info] (141734) Auto-excluding **/__pycache__
+2025-10-29 23:07:53.794 [info] (141734) Auto-excluding **/.*
+2025-10-29 23:07:53.794 [info] (141734) Assuming Python version 3.13.7.final.0
+2025-10-29 23:07:53.925 [info] (141734) Settings have not changed. Skipping update.
+2025-10-29 23:07:54.146 [info] (141734) Settings have not changed. Skipping update.
+2025-10-29 23:07:54.494 [info] (141734) Found 8 source files
+2025-10-29 23:07:54.796 [info] (141734) BG: Priority queue background worker(2) root directory: file:///home/friz/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-10-29 23:07:54.797 [info] (141734) BG: Priority queue background worker(2) started
+2025-10-29 23:07:54.971 [info] (141734) BG: Indexer background runner(3) root directory: file:///home/friz/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist (index)
+2025-10-29 23:07:54.971 [info] (141734) BG: Indexing(3) started
+2025-10-29 23:07:55.498 [info] (141734) BG: scanned(3) 60 files over 1 exec env
+2025-10-29 23:07:55.757 [info] (141734) BG: indexed(3) 60 files over 1 exec env
+2025-10-29 23:07:55.795 [info] (141734) BG: Indexing finished(3).

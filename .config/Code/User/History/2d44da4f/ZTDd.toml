@@ -1,0 +1,20 @@
+[project]
+name = "agent-base"
+version = "0.1.0"
+description = "Personal project for setting up containerasation with flask and sglang server"
+authors = [
+    {name = "FRIZFOREVER",email = "kirillhromov@mail.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "flask (>=3.1.2,<4.0.0)",
+    "logging (>=0.4.9.6,<0.5.0.0)",
+    "sglang (>=0.2.6,<0.3.0)",
+    "requests (>=2.31.0,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

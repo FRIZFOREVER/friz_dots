@@ -1,0 +1,34 @@
+2025-10-30 15:06:08.548 [info] Started local extension host with pid 28645.
+2025-10-30 15:06:08.568 [error] Extension 'openai.chatgpt' wants API proposal 'languageModelProxy' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-10-30 15:06:08.568 [error] Extension 'openai.chatgpt CANNOT USE these API proposals 'chatSessionsProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-10-30 15:06:10.253 [info] MCP Registry configured: https://api.mcp.github.com/2025-09-15
+2025-10-30 15:06:10.295 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-30 15:06:12.046 [info] [perf] Render performance baseline is 57ms
+2025-10-30 15:06:12.549 [error] Collection or definition not found for ms-python.vscode-pylance/pylanceMcp and ms-python.vscode-pylance/pylance mcp server: Error: Collection or definition not found for ms-python.vscode-pylance/pylanceMcp and ms-python.vscode-pylance/pylance mcp server
+    at qct.resolveConnection (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2240:2218)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2240:13693
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:73168
+2025-10-30 15:06:13.041 [error] [UriError]: Scheme contains illegal characters.: Error: [UriError]: Scheme contains illegal characters.
+    at z6 (file:///usr/share/code/resources/app/out/main.js:30:64302)
+    at new nd (file:///usr/share/code/resources/app/out/main.js:30:67682)
+    at new zr (file:///usr/share/code/resources/app/out/main.js:30:69120)
+    at nd.revive (file:///usr/share/code/resources/app/out/main.js:30:68897)
+    at o5.call (file:///usr/share/code/resources/app/out/main.js:88:105739)
+    at Lf.s (file:///usr/share/code/resources/app/out/main.js:31:14859)
+    at Lf.q (file:///usr/share/code/resources/app/out/main.js:31:14382)
+    at Xo.value (file:///usr/share/code/resources/app/out/main.js:31:13784)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2373)
+    at P.D (file:///usr/share/code/resources/app/out/main.js:30:2443)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2660)
+    at Xo.value (file:///usr/share/code/resources/app/out/main.js:28:5145)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2591)
+    at Xo.value (file:///usr/share/code/resources/app/out/main.js:28:5333)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2591)
+    at F (file:///usr/share/code/resources/app/out/main.js:28:7627)
+    at IpcMainImpl.i (file:///usr/share/code/resources/app/out/main.js:36:10776)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106370)
+    at Session.emit (node:events:519:28)
+2025-11-01 03:06:17.131 [info] Auto updating outdated extensions. openai.chatgpt

@@ -1,0 +1,7 @@
+2025-10-29 23:31:14.935 [error] #37: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_CERT_COMMON_NAME_INVALID
+2025-10-29 23:41:34.813 [error] #45: https://main.vscode-cdn.net/extensions/marketplace.json - error GET Request timeout after 10000ms
+2025-10-30 00:11:49.935 [error] #51: https://main.vscode-cdn.net/extensions/marketplace.json - error GET Request timeout after 10000ms
+2025-10-30 00:16:59.949 [error] #58: https://main.vscode-cdn.net/extensions/marketplace.json - error GET Request timeout after 10000ms
+2025-10-30 00:22:09.957 [error] #59: https://main.vscode-cdn.net/extensions/marketplace.json - error GET Request timeout after 10000ms
+2025-10-30 00:47:13.901 [error] #82: https://main.vscode-cdn.net/extensions/marketplace.json - error GET net::ERR_CERT_COMMON_NAME_INVALID
+2025-10-30 00:52:23.914 [error] #109: https://main.vscode-cdn.net/extensions/marketplace.json - error GET Request timeout after 10000ms

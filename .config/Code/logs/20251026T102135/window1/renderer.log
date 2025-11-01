@@ -1,0 +1,8 @@
+2025-10-26 10:21:36.633 [info] Started local extension host with pid 13492.
+2025-10-26 10:21:36.797 [error] Extension 'openai.chatgpt' wants API proposal 'languageModelProxy' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-10-26 10:21:36.797 [error] Extension 'openai.chatgpt CANNOT USE these API proposals 'chatSessionsProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-10-26 10:21:38.837 [error] [Extension Host] (node:13492) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-10-26 10:21:39.457 [info] MCP Registry configured: https://api.mcp.github.com/2025-09-15
+2025-10-26 10:21:39.585 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-26 10:21:40.439 [info] [perf] Render performance baseline is 32ms

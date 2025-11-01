@@ -1,0 +1,12 @@
+FROM ollama/ollama:latest
+
+RUN set -eux; \
+    apt-get update; \
+    apt-get install -y --no-install-recommends tini curl; \
+    rm -rf /var/lib/apt/lists/*
+
+EXPOSE 11434/tcp
+
+ENTRYPOINT ["tini","--","/bin/ollama"]
+
+# (No CMD here → inherit base image's ["serve"])

@@ -1,0 +1,6 @@
+2025-10-29 23:19:11.477 [info] Command registration.
+2025-10-29 23:20:08.728 [info] Connected to agent:Inference.Service.Agent pipe after retries:1
+2025-10-29 23:20:08.729 [info] Agent startup completed...
+2025-10-29 23:20:08.734 [info] Agent unlocked
+2025-10-29 23:20:13.763 [info] Information: Microsoft.Neutron.Telemetry.TelemetryLogger [0]  2025-10-29T23:20:13.7456269+03:00 UserAgent: Command:ListLoadedModels Status:Success Direct:True  Time:0ms
+2025-10-29 23:20:13.766 [info] Information: Microsoft.Neutron.Telemetry.TelemetryLogger [0]  2025-10-29T23:20:13.7651387+03:00 UserAgent: Command:ListDownloadedModels Status:Success Direct:True  Time:0ms

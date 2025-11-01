@@ -1,0 +1,80 @@
+Visual Studio Code (1.105.1, undefined, desktop)
+Jupyter Extension Version: 2025.9.1.
+Python Extension Version: 2025.16.0.
+Python Environment Extension Version: 1.10.0.
+Pylance Extension Version: 2025.9.1.
+Platform: linux (x64).
+Home = /home/friz
+Temp Storage folder ~/.config/Code/User/globalStorage/ms-toolsai.jupyter/version-2025.9.1
+Workspace folder ~/programming/code/sandbox
+01:01:31.025 [info] Starting Kernel (Python Path: /bin/python, Unknown, 3.13.7) for '~/programming/code/sandbox/ClassFactory.ipynb' (disableUI=true)
+01:01:31.048 [warn] Failed to get activated env vars for /bin/python in 53ms
+01:01:31.062 [info] Process Execution: /bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+01:01:31.134 [info] Process Execution: /bin/python -m pip list
+01:01:31.236 [warn] Failed to get activated env vars for /bin/python in 198ms
+01:01:31.242 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+01:01:31.324 [warn] Stderr output when getting ipykernel version & path Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)
+    ^^^^^^^^^^^^^^^^
+    ModuleNotFoundError: No module named 'ipykernel' for /bin/python
+01:01:31.339 [warn] Failed to get activated env vars for /bin/python in 74ms
+01:01:31.354 [info] Process Execution: /bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v34a52aa17d7d415ed0dc57f036075b1c14795fda5.json
+    > cwd: ~/programming/code/sandbox
+01:01:31.412 [error] Disposing kernel process due to an error Error: The kernel died. Error: /bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+    > Interpreter Id = /bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = /bin/python: No module named ipykernel_launcher
+01:01:31.415 [error] Failed to connect raw kernel session: Error: The kernel died. Error: /bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+01:01:31.416 [error] Failed to connect raw kernel session: Error: The kernel died. Error: /bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+01:01:31.416 [warn] Failed to shutdown kernel, .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher [TypeError: Cannot read properties of undefined (reading 'dispose')
+	at JT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:13632)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async qT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:22453)]
+01:01:31.417 [warn] Error occurred while trying to start the kernel, options.disableUI=true Error: The kernel died. Error: /bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+    > Interpreter Id = /bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = /bin/python: No module named ipykernel_launcher
+01:02:24.611 [info] Starting Kernel (Python Path: /bin/python, Unknown, 3.13.7) for '~/programming/code/sandbox/ClassFactory.ipynb' (disableUI=false)
+01:02:24.638 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+01:02:24.643 [info] Process Execution: /bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v372ec00938139cbe482dea0c674840137b9912d1c.json
+    > cwd: ~/programming/code/sandbox
+01:02:24.662 [error] Disposing kernel process due to an error Error: The kernel died. Error: /bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+    > Interpreter Id = /bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = /bin/python: No module named ipykernel_launcher
+01:02:24.663 [error] Failed to connect raw kernel session: Error: The kernel died. Error: /bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+01:02:24.663 [error] Failed to connect raw kernel session: Error: The kernel died. Error: /bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+01:02:24.663 [warn] Failed to shutdown kernel, .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher [TypeError: Cannot read properties of undefined (reading 'dispose')
+	at JT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:13632)
+	at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+	at async qT.shutdown (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:309:22453)]
+01:02:24.664 [warn] Error occurred while trying to start the kernel, options.disableUI=false Error: The kernel died. Error: /bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+    > Interpreter Id = /bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = /bin/python: No module named ipykernel_launcher
+01:02:24.664 [warn] Kernel Error, context = start Error: The kernel died. Error: /bin/python: No module named ipykernel_launcher... View Jupyter [log](command:jupyter.viewOutput) for further details.
+    > Kernel Id = .jvsc74a57bd0e7370f93d1d0cde622a1f8e1c04877d8463912d04d973331ad4851f04de6915a./bin/python./bin/python.-m#ipykernel_launcher
+    > Interpreter Id = /bin/python
+    > at ChildProcess.<anonymous> (~/.vscode/extensions/ms-toolsai.jupyter-2025.9.1-linux-x64/dist/extension.node.js:304:45805)
+    > stdErr = /bin/python: No module named ipykernel_launcher
+01:02:24.672 [warn] Failed to get activated env vars for /bin/python in 5ms
+01:02:24.680 [info] Process Execution: /bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+01:02:24.722 [info] Check & install missing Kernel dependencies for /bin/python, ui.disabled=false for resource '~/programming/code/sandbox/ClassFactory.ipynb'
+01:02:24.729 [info] Process Execution: /bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+01:02:24.773 [info] Process Execution: /bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+01:02:32.559 [info] Process Execution: /bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+01:02:32.587 [info] Process Execution: /bin/python -m pip install -U --user ipykernel
+01:02:39.942 [info] Process Execution: /bin/python -c "import ipykernel;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+01:02:40.240 [info] Dispose Kernel '~/programming/code/sandbox/ClassFactory.ipynb' associated with '~/programming/code/sandbox/ClassFactory.ipynb'
+01:02:40.245 [info] Process Execution: /bin/python -m pip list
+01:02:40.246 [info] Starting Kernel (Python Path: /bin/python, Unknown, 3.13.7) for '~/programming/code/sandbox/ClassFactory.ipynb' (disableUI=false)
+01:02:40.269 [warn] Failed to get activated env vars for /bin/python in 21ms
+01:02:40.275 [info] Process Execution: /bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+01:02:40.282 [info] Process Execution: /bin/python -m ipykernel_launcher --f=/run/user/1000/jupyter/runtime/kernel-v3a5fcbb957c1ad1b7299c8fbbfedd1b6d495cdac9.json
+    > cwd: ~/programming/code/sandbox
+01:02:41.800 [info] Kernel successfully started

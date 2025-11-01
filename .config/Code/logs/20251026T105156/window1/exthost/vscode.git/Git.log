@@ -1,0 +1,154 @@
+2025-10-26 10:52:04.483 [info] [main] Log level: Info
+2025-10-26 10:52:04.483 [info] [main] Validating found git in: "git"
+2025-10-26 10:52:04.483 [info] [main] Using git "2.51.0" from "git"
+2025-10-26 10:52:04.483 [info] [Model][doInitialScan] Initial repository scan started
+2025-10-26 10:52:04.483 [info] > git rev-parse --show-toplevel [6ms]
+2025-10-26 10:52:04.483 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.491 [info] > git rev-parse --show-toplevel [1ms]
+2025-10-26 10:52:04.491 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.497 [info] > git rev-parse --show-toplevel [1ms]
+2025-10-26 10:52:04.497 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.502 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-26 10:52:04.502 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.507 [info] > git rev-parse --show-toplevel [1ms]
+2025-10-26 10:52:04.507 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.512 [info] > git rev-parse --show-toplevel [1ms]
+2025-10-26 10:52:04.512 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.519 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-26 10:52:04.519 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.524 [info] > git rev-parse --show-toplevel [1ms]
+2025-10-26 10:52:04.524 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.529 [info] > git rev-parse --show-toplevel [1ms]
+2025-10-26 10:52:04.529 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.534 [info] > git rev-parse --show-toplevel [1ms]
+2025-10-26 10:52:04.534 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.539 [info] > git rev-parse --show-toplevel [1ms]
+2025-10-26 10:52:04.539 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.544 [info] > git rev-parse --show-toplevel [1ms]
+2025-10-26 10:52:04.544 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.550 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-26 10:52:04.550 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.555 [info] > git rev-parse --show-toplevel [1ms]
+2025-10-26 10:52:04.563 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [4ms]
+2025-10-26 10:52:04.575 [info] [Model][openRepository] Opened repository (path): /home/friz/.oh-my-zsh
+2025-10-26 10:52:04.575 [info] [Model][openRepository] Opened repository (real path): /home/friz/.oh-my-zsh
+2025-10-26 10:52:04.575 [info] [Model][openRepository] Opened repository (kind): repository
+2025-10-26 10:52:04.588 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-26 10:52:04.588 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.588 [info] > git config --get commit.template [7ms]
+2025-10-26 10:52:04.599 [info] > git rev-parse --show-toplevel [7ms]
+2025-10-26 10:52:04.599 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.604 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-26 10:52:04.610 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [2ms]
+2025-10-26 10:52:04.615 [info] [Model][openRepository] Opened repository (path): /home/friz/.pyenv
+2025-10-26 10:52:04.615 [info] [Model][openRepository] Opened repository (real path): /home/friz/.pyenv
+2025-10-26 10:52:04.615 [info] [Model][openRepository] Opened repository (kind): repository
+2025-10-26 10:52:04.628 [info] > git rev-parse --show-toplevel [6ms]
+2025-10-26 10:52:04.628 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.629 [info] > git config --get commit.template [9ms]
+2025-10-26 10:52:04.643 [info] > git rev-parse --show-toplevel [7ms]
+2025-10-26 10:52:04.643 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.650 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-26 10:52:04.650 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.653 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [57ms]
+2025-10-26 10:52:04.654 [info] > git rev-parse --show-toplevel [1ms]
+2025-10-26 10:52:04.654 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.680 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2025-10-26 10:52:04.681 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [39ms]
+2025-10-26 10:52:04.682 [info] > git rev-parse --show-toplevel [24ms]
+2025-10-26 10:52:04.682 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.687 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/friz/.pyenv/.git/refs/remotes/origin/master'
+2025-10-26 10:52:04.692 [info] > git rev-parse refs/remotes/origin/master [6ms]
+2025-10-26 10:52:04.700 [info] > git rev-parse --show-toplevel [9ms]
+2025-10-26 10:52:04.700 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.703 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-10-26 10:52:04.704 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-26 10:52:04.704 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.708 [info] > git rev-parse --show-toplevel [1ms]
+2025-10-26 10:52:04.708 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.713 [info] > git rev-parse --show-toplevel [1ms]
+2025-10-26 10:52:04.713 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.718 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-26 10:52:04.727 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [5ms]
+2025-10-26 10:52:04.733 [info] [Model][openRepository] Opened repository (path): /home/friz/Fedora-Hyprland
+2025-10-26 10:52:04.733 [info] [Model][openRepository] Opened repository (real path): /home/friz/Fedora-Hyprland
+2025-10-26 10:52:04.733 [info] [Model][openRepository] Opened repository (kind): repository
+2025-10-26 10:52:04.743 [info] > git config --get commit.template [3ms]
+2025-10-26 10:52:04.745 [info] > git rev-parse --show-toplevel [2ms]
+2025-10-26 10:52:04.745 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.752 [info] > git rev-parse --show-toplevel [1ms]
+2025-10-26 10:52:04.752 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.756 [info] > git rev-parse --show-toplevel [1ms]
+2025-10-26 10:52:04.756 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.761 [info] > git rev-parse --show-toplevel [1ms]
+2025-10-26 10:52:04.761 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.764 [info] > git rev-parse --show-toplevel [1ms]
+2025-10-26 10:52:04.764 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.769 [info] > git rev-parse --show-toplevel [1ms]
+2025-10-26 10:52:04.769 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-10-26 10:52:04.772 [info] [Model][doInitialScan] Initial repository scan completed - repositories (3), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-10-26 10:52:04.793 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [45ms]
+2025-10-26 10:52:04.796 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/friz/Fedora-Hyprland/.git/refs/remotes/origin/main'
+2025-10-26 10:52:04.797 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-10-26 10:52:04.808 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-26 10:52:04.934 [info] > git status -z -uall [133ms]
+2025-10-26 10:52:04.960 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2025-10-26 10:52:04.966 [info] > git config --get --local branch.main.vscode-merge-base [2ms]
+2025-10-26 10:52:04.966 [warning] [Git][config] git config failed: Failed to execute git
+2025-10-26 10:52:04.970 [info] > git config --get commit.template [10ms]
+2025-10-26 10:52:04.977 [info] > git reflog main --grep-reflog=branch: Created from *. [7ms]
+2025-10-26 10:52:04.980 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-10-26 10:52:04.984 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/friz/Fedora-Hyprland/.git/refs/remotes/origin/main'
+2025-10-26 10:52:04.984 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2025-10-26 10:52:04.987 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2025-10-26 10:52:04.995 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [8ms]
+2025-10-26 10:52:04.999 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-10-26 10:52:05.000 [info] > git config --add --local branch.main.vscode-merge-base origin/main [1ms]
+2025-10-26 10:52:05.005 [info] > git status -z -uall [15ms] (cancelled)
+2025-10-26 10:52:05.006 [info] > git config --get commit.template [1ms]
+2025-10-26 10:52:05.010 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-10-26 10:52:05.013 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/friz/Fedora-Hyprland/.git/refs/remotes/origin/main'
+2025-10-26 10:52:05.014 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-10-26 10:52:05.021 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-10-26 10:52:05.025 [info] > git status -z -uall [9ms]
+2025-10-26 10:52:05.034 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2025-10-26 10:52:05.040 [info] > git diff --name-status -z --diff-filter=ADMR a4d836d4e1b03f15962782478cbdb6776c299869...refs/remotes/origin/main [2ms]
+2025-10-26 10:52:05.041 [info] > git merge-base refs/heads/main refs/remotes/origin/main [7ms]
+2025-10-26 10:52:05.047 [info] > git diff --name-status -z --diff-filter=ADMR a4d836d4e1b03f15962782478cbdb6776c299869...refs/remotes/origin/main [3ms]
+2025-10-26 10:52:05.140 [info] > git check-ignore -v -z --stdin [4ms]
+2025-10-26 10:52:05.141 [info] > git check-ignore -v -z --stdin [2ms]
+2025-10-26 10:52:05.627 [info] > git status -z -uall [932ms]
+2025-10-26 10:52:05.639 [info] > git config --get commit.template [2ms]
+2025-10-26 10:52:05.639 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2025-10-26 10:52:05.646 [info] > git config --get --local branch.master.vscode-merge-base [4ms]
+2025-10-26 10:52:05.646 [warning] [Git][config] git config failed: Failed to execute git
+2025-10-26 10:52:05.649 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2025-10-26 10:52:05.652 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/friz/.pyenv/.git/refs/remotes/origin/master'
+2025-10-26 10:52:05.652 [info] > git reflog master --grep-reflog=branch: Created from *. [3ms]
+2025-10-26 10:52:05.656 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2025-10-26 10:52:05.662 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [7ms]
+2025-10-26 10:52:05.662 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2025-10-26 10:52:05.662 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2025-10-26 10:52:05.666 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
+2025-10-26 10:52:05.667 [info] > git merge-base refs/heads/master refs/remotes/origin/master [2ms]
+2025-10-26 10:52:05.674 [info] > git diff --name-status -z --diff-filter=ADMR 1b7d2f08fd74f4f312717cdb012ff5c29f8b2f73...refs/remotes/origin/master [2ms]
+2025-10-26 10:52:05.699 [info] > git status -z -uall [41ms]
+2025-10-26 10:52:05.937 [info] > git status -z -uall [1274ms]
+2025-10-26 10:52:05.951 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-10-26 10:52:05.957 [info] > git config --get --local branch.master.vscode-merge-base [1ms]
+2025-10-26 10:52:05.957 [warning] [Git][config] git config failed: Failed to execute git
+2025-10-26 10:52:05.961 [info] > git config --get commit.template [10ms]
+2025-10-26 10:52:05.966 [info] > git reflog master --grep-reflog=branch: Created from *. [5ms]
+2025-10-26 10:52:05.971 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2025-10-26 10:52:05.971 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2025-10-26 10:52:05.984 [info] > git config --add --local branch.master.vscode-merge-base origin/master [9ms]
+2025-10-26 10:52:05.984 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] (cancelled)
+2025-10-26 10:52:05.990 [info] > git status -z -uall [11ms] (cancelled)
+2025-10-26 10:52:05.991 [info] > git config --get commit.template [2ms]
+2025-10-26 10:52:05.996 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2025-10-26 10:52:06.009 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-10-26 10:52:06.059 [info] > git status -z -uall [59ms]
+2025-10-26 10:52:06.070 [info] > git merge-base refs/heads/master refs/remotes/origin/master [5ms]
+2025-10-26 10:52:06.075 [info] > git merge-base refs/heads/master refs/remotes/origin/master [5ms]
+2025-10-26 10:52:06.080 [info] > git diff --name-status -z --diff-filter=ADMR d1c04d8a33f9127d03b69617c5367db5ceebc8a7...refs/remotes/origin/master [6ms]
+2025-10-26 10:52:06.081 [info] > git diff --name-status -z --diff-filter=ADMR d1c04d8a33f9127d03b69617c5367db5ceebc8a7...refs/remotes/origin/master [2ms]

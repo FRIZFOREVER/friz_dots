@@ -1,0 +1,46 @@
+# Base image with Python + uv preinstalled (uv creates /app/.venv by default)
+FROM ghcr.io/astral-sh/uv:python3.13-slim
+
+# ── Runtime env + uv tuning (runtime-only flags; no pip ENVs needed) ───────────
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PYTHONFAULTHANDLER=1 \
+    UV_COMPILE_BYTECODE=1 \
+    UV_LINK_MODE=copy \
+    PATH="/app/.venv/bin:${PATH}" \
+    CHAT_MODEL_REPO="Qwen/Qwen3-0.6B"
+
+# ── App directory and non-root user ────────────────────────────────────────────
+WORKDIR /app
+RUN groupadd -r app && useradd -r -g app -m -d /home/appuser -s /usr/sbin/nologin appuser \
+ && chown appuser:app /app
+
+# ── Preinstall ONLY dependencies from lockfile (great cache!) ─────────────────
+# Copy lock files first so this layer caches until deps change.
+COPY --chown=appuser:app pyproject.toml uv.lock ./
+
+# Install deps into /app/.venv (no project install yet)
+# Use a BuildKit cache so repeated builds are fast:
+#   DOCKER_BUILDKIT=1 docker build ...
+USER appuser
+RUN --mount=type=cache,target=/home/appuser/.cache/uv \
+    uv sync --frozen --no-install-project
+
+# ── Copy the application code and install the project itself ───────────────────
+# Keep .dockerignore tight (e.g., ignore .git, .venv, __pycache__, etc.)
+COPY --chown=appuser:app . .
+RUN --mount=type=cache,target=/home/appuser/.cache/uv \
+    uv sync --frozen --no-dev
+
+# ── Health, labels, port, and start command ───────────────────────────────────
+HEALTHCHECK --interval=30s --timeout=3s --start-period=10s --retries=3 \
+  CMD ["python","-c","import sys,urllib.request,json; r=urllib.request.urlopen('http://127.0.0.1:8000/healthz', timeout=2); sys.exit(0 if (r.status==200 and json.loads(r.read().decode()).get('status')=='ok') else 1)"]
+
+LABEL org.opencontainers.image.title="fastapi-demo" \
+      org.opencontainers.image.description="FastAPI service (Python 3.13, Uvicorn, uv sync, non-root)" \
+      org.opencontainers.image.base.name="ghcr.io/astral-sh/uv:python3.13-slim"
+
+EXPOSE 8000
+
+ENTRYPOINT ["uvicorn"]
+CMD ["--app-dir", "src", "main:app", "--host", "0.0.0.0", "--port", "8000"]

@@ -1,0 +1,6 @@
+2025-10-27 18:04:25.070 [info] Getting Manifest... golang.go
+2025-10-27 18:04:25.751 [info] Installing extension: golang.go {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/friz/.vscode/extensions/extensions.json","path":"/home/friz/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.105.1","date":"2025-10-14T22:33:36.618Z"}}
+2025-10-27 18:04:30.112 [info] Extension signature verification result for golang.go: Success. Internal Code: 0. Executed: true. Duration: 919ms.
+2025-10-27 18:04:30.179 [info] Extracted extension to file:///home/friz/.vscode/extensions/golang.go-0.50.0: golang.go
+2025-10-27 18:04:30.192 [info] Renamed to /home/friz/.vscode/extensions/golang.go-0.50.0
+2025-10-27 18:04:30.230 [info] Extension installed successfully: golang.go vscode-userdata:/home/friz/.vscode/extensions/extensions.json

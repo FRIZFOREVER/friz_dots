@@ -1,0 +1,26 @@
+FROM ollama/ollama:latest
+
+ARG APP_USER=ollama
+ARG APP_UID=1000
+ARG APP_GID=1000
+
+RUN set -eux; \
+    groupadd -g "${APP_GID}" "${APP_USER}" || true; \
+    useradd -m -u "${APP_UID}" -g "${APP_GID}" -s /bin/bash "${APP_USER}" || true
+
+ENV OLLAMA_MODELS=/home/${APP_USER}/.ollama
+
+RUN mkdir -p "${OLLAMA_MODELS}" && chown -R "${APP_UID}:${APP_GID}" "${OLLAMA_MODELS}"
+
+RUN set -eux; \
+    apt-get update; \
+    apt-get install -y --no-install-recommends tini curl; \
+    rm -rf /var/lib/apt/lists/*
+
+USER ${APP_UID}:${APP_GID}
+
+EXPOSE 11434/tcp
+
+ENTRYPOINT ["tini","--","/bin/ollama"]
+
+CMD ['serve']

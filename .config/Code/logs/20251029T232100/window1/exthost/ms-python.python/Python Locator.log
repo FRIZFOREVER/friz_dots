@@ -1,0 +1,56 @@
+2025-10-29 23:21:05.045 [info] Starting Python Locator /home/friz/.vscode/extensions/ms-python.python-2025.16.0-linux-x64/python-env-tools/bin/pet server
+2025-10-29 23:21:05.947 [info] Discovered manager: (Pyenv) /home/friz/.pyenv/bin/pyenv
+2025-10-29 23:21:05.948 [info] Discovered env: /home/friz/.pyenv/versions/3.12.7/bin/python
+2025-10-29 23:21:05.962 [info] Discovered env: /bin/python
+2025-10-29 23:21:05.968 [info] Discovered env: /usr/bin/python
+2025-10-29 23:21:05.973 [info] Env ("/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-10-29 23:21:05.973 [info] Discovered env: /sbin/python
+2025-10-29 23:21:05.976 [info] Env ("/usr/sbin/python") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python"]) } and reported as Some(GlobalPaths)
+2025-10-29 23:21:05.977 [info] Discovered env: /usr/sbin/python
+2025-10-29 23:21:05.991 [info] Env ("/home/friz/.local/bin/python3.11") in Path resolved as ResolvedPythonEnv { executable: "/home/friz/.local/bin/python3.11", prefix: "/home/friz/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu", version: "3.11.14.final.0", is64_bit: true, symlinks: Some(["/home/friz/.local/bin/python3.11"]) } and reported as Some(GlobalPaths)
+2025-10-29 23:21:05.991 [info] Discovered env: /home/friz/.local/bin/python3.11
+2025-10-29 23:21:05.995 [info] Env ("/home/friz/.local/bin/python3.11") in Path resolved as ResolvedPythonEnv { executable: "/home/friz/.local/bin/python3.11", prefix: "/home/friz/.local/share/uv/python/cpython-3.11.14-linux-x86_64-gnu", version: "3.11.14.final.0", is64_bit: true, symlinks: Some(["/home/friz/.local/bin/python3.11"]) } and reported as Some(GlobalPaths)
+2025-10-29 23:21:05.995 [info] Env ("/home/friz/.local/bin/python3.12") in Path resolved as ResolvedPythonEnv { executable: "/home/friz/.local/bin/python3.12", prefix: "/home/friz/.local/share/uv/python/cpython-3.12.7-linux-x86_64-gnu", version: "3.12.7.final.0", is64_bit: true, symlinks: Some(["/home/friz/.local/bin/python3.12"]) } and reported as Some(GlobalPaths)
+2025-10-29 23:21:05.996 [info] Discovered env: /home/friz/.local/bin/python3.12
+2025-10-29 23:21:05.998 [info] Env ("/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-10-29 23:21:05.998 [info] Discovered env: /sbin/python3
+2025-10-29 23:21:06.003 [info] Env ("/home/friz/.local/bin/python3.12") in Path resolved as ResolvedPythonEnv { executable: "/home/friz/.local/bin/python3.12", prefix: "/home/friz/.local/share/uv/python/cpython-3.12.7-linux-x86_64-gnu", version: "3.12.7.final.0", is64_bit: true, symlinks: Some(["/home/friz/.local/bin/python3.12"]) } and reported as Some(GlobalPaths)
+2025-10-29 23:21:06.003 [info] Env ("/usr/sbin/python3") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3"]) } and reported as Some(GlobalPaths)
+2025-10-29 23:21:06.003 [info] Discovered env: /usr/sbin/python3
+2025-10-29 23:21:06.006 [info] Env ("/usr/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/usr/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/usr/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-10-29 23:21:06.007 [info] Env ("/sbin/python3.13") in Path resolved as ResolvedPythonEnv { executable: "/sbin/python3.13", prefix: "/usr", version: "3.13.7.final.0", is64_bit: true, symlinks: Some(["/sbin/python3.13"]) } and reported as Some(GlobalPaths)
+2025-10-29 23:21:06.007 [info] Discovered env: /usr/sbin/python3.13
+2025-10-29 23:21:06.010 [info] Discovered env: /sbin/python3.13
+2025-10-29 23:21:06.013 [info] Locator Conda took 425.425297ms
+2025-10-29 23:21:06.014 [info] Locator Homebrew took 7.553053ms
+2025-10-29 23:21:06.014 [info] Locator LinuxGlobal took 489.878081ms
+2025-10-29 23:21:06.014 [info] Locator PipEnv took 2.249216ms
+2025-10-29 23:21:06.014 [info] Locator Pixi took 34.169µs
+2025-10-29 23:21:06.014 [info] Locator Poetry took 2.351753ms
+2025-10-29 23:21:06.014 [info] Locator PyEnv took 45.724958ms
+2025-10-29 23:21:06.014 [info] Locator Venv took 28.138µs
+2025-10-29 23:21:06.014 [info] Locator VirtualEnv took 32.768µs
+2025-10-29 23:21:06.014 [info] Locator VirtualEnvWrapper took 712.982µs
+2025-10-29 23:21:06.014 [info] Locator GlobalVirtualEnvs took 404.057µs
+2025-10-29 23:21:06.014 [info] Locator Locators took 493.104853ms
+2025-10-29 23:21:06.014 [info] Locator Path took 667.675557ms
+2025-10-29 23:21:06.014 [info] Locator Workspaces took 34.903757ms
+2025-10-29 23:21:06.014 [info] Refresh completed in 667ms
+2025-10-29 23:21:06.016 [info] Resolved Python Environment /home/friz/programming/code/personal/agent-base/ml/.venv/bin/python
+2025-10-29 23:21:37.554 [info] Resolved Python Environment /home/friz/programming/code/personal/agent-base/ml/.venv/bin/python
+2025-10-29 23:23:05.640 [info] Resolved Python Environment /home/friz/programming/code/personal/agent-base/ml/.venv/bin/python
+2025-10-29 23:24:15.055 [info] Resolved Python Environment /home/friz/programming/code/personal/agent-base/ml/.venv/bin/python
+2025-10-29 23:27:03.939 [info] Resolved Python Environment /home/friz/programming/code/personal/agent-base/ml/.venv/bin/python
+2025-10-29 23:28:59.480 [info] Resolved Python Environment /home/friz/programming/code/personal/agent-base/ml/.venv/bin/python
+2025-10-29 23:31:36.331 [info] Resolved Python Environment /home/friz/programming/code/personal/agent-base/ml/.venv/bin/python
+2025-10-30 00:15:35.606 [info] Resolved Python Environment /home/friz/programming/code/personal/agent-base/ml/.venv/bin/python
+2025-10-30 00:23:14.012 [info] Resolved Python Environment /home/friz/programming/code/personal/agent-base/ml/.venv/bin/python
+2025-10-30 01:06:39.008 [info] Resolved Python Environment /home/friz/programming/code/personal/agent-base/ml/.venv/bin/python
+2025-10-30 01:08:27.591 [info] Resolved Python Environment /home/friz/programming/code/personal/agent-base/ml/.venv/bin/python
+2025-10-30 01:22:40.987 [info] Resolved Python Environment /home/friz/programming/code/personal/agent-base/ml/.venv/bin/python
+2025-10-30 01:27:43.879 [info] Resolved Python Environment /home/friz/programming/code/personal/agent-base/ml/.venv/bin/python
+2025-10-30 01:28:35.766 [info] Resolved Python Environment /home/friz/programming/code/personal/agent-base/ml/.venv/bin/python
+2025-10-30 01:30:20.842 [info] Resolved Python Environment /home/friz/programming/code/personal/agent-base/ml/.venv/bin/python
+2025-10-30 01:33:42.279 [info] Resolved Python Environment /home/friz/programming/code/personal/agent-base/ml/.venv/bin/python
+2025-10-30 01:36:37.703 [info] Resolved Python Environment /home/friz/programming/code/personal/agent-base/ml/.venv/bin/python
+2025-10-30 01:37:47.917 [info] Resolved Python Environment /home/friz/programming/code/personal/agent-base/ml/.venv/bin/python

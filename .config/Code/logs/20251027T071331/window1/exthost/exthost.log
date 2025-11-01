@@ -1,0 +1,19 @@
+2025-10-27 07:13:33.248 [info] Extension host with pid 5670 started
+2025-10-27 07:13:33.248 [info] Skipping acquiring lock for /home/friz/.config/Code/User/workspaceStorage/2fda8e92d0aa23cab4109f737eb04c46.
+2025-10-27 07:13:33.456 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-10-27 07:13:33.507 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-27 07:13:33.527 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: 'onLanguage:ignore'
+2025-10-27 07:13:33.529 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-containers, startup: false, activationEvent: 'onLanguage:dockercompose'
+2025-10-27 07:13:34.056 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-10-27 07:13:34.126 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-27 07:13:34.357 [info] Eager extensions activated
+2025-10-27 07:13:34.369 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-27 07:13:34.397 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-27 07:13:34.435 [info] ExtensionService#_doActivateExtension openai.chatgpt, startup: false, activationEvent: 'onStartupFinished'
+2025-10-27 08:19:03.274 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-10-27 08:19:03.290 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-10-27 08:19:03.775 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-10-27 08:51:48.210 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-10-27 08:58:19.714 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-10-27 09:30:33.184 [info] Extension host terminating: renderer closed the MessagePort
+2025-10-27 09:30:33.255 [info] Extension host with pid 5670 exiting with code 0

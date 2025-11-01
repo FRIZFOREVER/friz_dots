@@ -1,0 +1,14 @@
+2025-10-26 10:51:59.646 [info] Extension host with pid 26813 started
+2025-10-26 10:51:59.646 [info] Skipping acquiring lock for /home/friz/.config/Code/User/workspaceStorage/df69801ad9b03f5d42bb7b74f4368e2b.
+2025-10-26 10:51:59.742 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-10-26 10:51:59.777 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-26 10:51:59.868 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-10-26 10:51:59.894 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-26 10:52:00.017 [info] Eager extensions activated
+2025-10-26 10:52:00.076 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-26 10:52:00.080 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-26 10:52:04.154 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-10-26 10:52:04.317 [info] ExtensionService#_doActivateExtension openai.chatgpt, startup: false, activationEvent: 'onStartupFinished'
+2025-10-26 10:52:06.155 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-containers, startup: false, activationEvent: 'onView:vscode-containers.views.containers'
+2025-10-26 10:52:11.370 [info] Extension host terminating: renderer closed the MessagePort
+2025-10-26 10:52:11.404 [info] Extension host with pid 26813 exiting with code 0

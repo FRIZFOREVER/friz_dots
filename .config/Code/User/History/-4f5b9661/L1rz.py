@@ -1,0 +1,1 @@
+CHAT_MODEL_REPO="Qwen/Qwen3-0.6B"

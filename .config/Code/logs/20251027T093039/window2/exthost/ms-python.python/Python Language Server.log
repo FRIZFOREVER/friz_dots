@@ -1,0 +1,26 @@
+2025-10-27 17:54:06.407 [info] (Client) Pylance client (2025.9.1) started with python extension (2025.16.0)
+2025-10-27 17:54:07.714 [info] (195157) Server root directory: file:///home/friz/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-10-27 17:54:07.715 [info] (195157) Pylance language server 2025.9.1 (pyright version 1.1.406, commit 20aa20a1) starting
+2025-10-27 17:54:07.722 [info] (195157) Starting service instance "MOSPROM_FROGS" for workspace "/home/friz/programming/code/hack/MOSPROM_FROGS"
+2025-10-27 17:54:07.825 [info] (195157) Setting environmentName for service "MOSPROM_FROGS": "3.13.7 (global)"
+2025-10-27 17:54:07.825 [info] (195157) Setting pythonPath for service "MOSPROM_FROGS": "/bin/python"
+2025-10-27 17:54:07.825 [info] (195157) No include entries specified; assuming /home/friz/programming/code/hack/MOSPROM_FROGS
+2025-10-27 17:54:07.826 [info] (195157) Auto-excluding **/node_modules
+2025-10-27 17:54:07.826 [info] (195157) Auto-excluding **/__pycache__
+2025-10-27 17:54:07.826 [info] (195157) Auto-excluding **/.*
+2025-10-27 17:54:07.863 [info] (195157) Assuming Python version 3.13.7.final.0
+2025-10-27 17:54:07.986 [info] (195157) Found 29 source files
+2025-10-27 17:54:08.045 [info] (195157) Settings have not changed. Skipping update.
+2025-10-27 17:54:08.485 [info] (195157) Starting Mcp server id:5820 ...
+2025-10-27 17:54:09.342 [info] (195157) BG: Priority queue background worker(2) root directory: file:///home/friz/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-10-27 17:54:09.346 [info] (195157) BG: Priority queue background worker(2) started
+2025-10-27 17:54:09.628 [info] (195157) BG: Indexer background runner(3) root directory: file:///home/friz/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist (index)
+2025-10-27 17:54:09.629 [info] (195157) BG: Indexing(3) started
+2025-10-27 17:54:11.247 [info] (195157) BG: scanned(3) 378 files over 1 exec env
+2025-10-27 17:54:20.632 [info] (195157) BG: [IDX(3)] Long operation: binding: file:///usr/local/lib/python3.13/site-packages/transformers/models/__init__.py (4713ms)
+2025-10-27 17:54:20.637 [info] (195157) BG: [IDX(3)] Long operation: binding: file:///usr/local/lib/python3.13/site-packages/transformers/__init__.py (4745ms)
+2025-10-27 17:54:21.116 [info] (195157) BG: [IDX(3)] Long operation: indexing: file:///usr/local/lib/python3.13/site-packages/transformers/__init__.py (5270ms)
+2025-10-27 17:54:22.834 [info] (195157) BG: [IDX(3)] Long operation: index execution environment file:///home/friz/programming/code/hack/MOSPROM_FROGS (11242ms)
+2025-10-27 17:54:22.919 [info] (195157) BG: [IDX(3)] Long operation: index packages file:///home/friz/programming/code/hack/MOSPROM_FROGS (11349ms)
+2025-10-27 17:54:22.922 [info] (195157) BG: indexed(3) 378 files over 1 exec env
+2025-10-27 17:54:23.121 [info] (195157) BG: Indexing finished(3).

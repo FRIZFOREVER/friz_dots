@@ -1,0 +1,43 @@
+FROM python@sha256:0222b795db95bf7412cede36ab46a266cfb31f632e64051aac9806dabf840a61 AS builder
+
+WORKDIR /app
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1
+COPY requirements.txt .
+RUN python -m pip install --upgrade pip wheel setuptools \
+ && pip wheel --wheel-dir /wheels -r requirements.txt
+
+FROM python@sha256:0222b795db95bf7412cede36ab46a266cfb31f632e64051aac9806dabf840a61
+
+WORKDIR /app
+
+ENV CHAT_MODEL_REPO=Qwen/Qwen3-0.6B \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    PYTHONFAULTHANDLER=1
+
+COPY --from=builder /wheels /wheels
+COPY requirements.txt .
+RUN python -m pip install --no-index --find-links=/wheels -r requirements.txt
+
+
+RUN groupadd -r app && useradd -r -g app -m -d /home/appuser appuser
+
+COPY --chown=appuser:app . .
+
+USER appuser
+
+HEALTHCHECK --interval=30s --timeout=3s --start-period=10s --retries=3 \
+  CMD ["python","-c","import sys,urllib.request,json; r=urllib.request.urlopen('http://127.0.0.1:8000/healthz', timeout=2); sys.exit(0 if (r.status==200 and json.loads(r.read().decode()).get('status')=='ok') else 1)"]
+
+LABEL org.opencontainers.image.title="fastapi-demo"
+      org.opencontainers.image.description="FastAPI service"
+      org.opencontainers.image.base.name="python:3.13-slim"
+
+ENTRYPOINT ["uvicorn"]
+CMD ["--app-dir", "src", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+

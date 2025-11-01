@@ -1,0 +1,14 @@
+{
+  "environment": {
+    "executable": "/home/friz/.pyenv/versions/3.12.7/bin/python",
+    "prefix": "/home/friz/.pyenv/versions/3.12.7",
+    "version": "3.12.7.final.0",
+    "is64Bit": true,
+    "symlinks": [
+      "/home/friz/.pyenv/versions/3.12.7/bin/python",
+      "/home/friz/.pyenv/versions/3.12.7/bin/python3",
+      "/home/friz/.pyenv/versions/3.12.7/bin/python3.12"
+    ]
+  },
+  "symlinks": []
+}

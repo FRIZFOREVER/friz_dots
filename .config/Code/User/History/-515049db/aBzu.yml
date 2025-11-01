@@ -1,0 +1,42 @@
+services:
+  web:
+    # Build from your Dockerfile in this folder
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: fastapi-uv:latest
+
+    # Safer default: expose only on localhost (change to "8000:8000" for LAN)
+    ports:
+      - "127.0.0.1:8000:8000"
+
+    restart: unless-stopped
+    stop_grace_period: 20s
+    
+    # Healthcheck
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS --max-time 2 http://127.0.0.1:8000/healthz | grep -q '\"status\"[[:space:]]*:[[:space:]]*\"ok\"'"]
+      interval: 30s
+      timeout: 3s
+      retries: 3
+      start_period: 10s
+
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+    develop:
+      watch:
+        - action: sync
+          path: .
+          target: /app
+          ignore:
+            - .venv/
+            - .git/
+            - __pycache__/
+            - .mypy_cache/
+            - .pytest_cache/
+        - action: rebuild
+          path: ./uv.lock

@@ -1,0 +1,12 @@
+2025-10-29 23:07:51.451 [info] Native locator: Refresh started
+2025-10-29 23:07:51.451 [info] Native locator: Refresh started
+2025-10-29 23:07:51.682 [info] > conda info --json
+2025-10-29 23:07:51.696 [info] > /usr/share/anaconda/bin/conda info --json
+2025-10-29 23:07:51.720 [info] > ~/.pyenv/bin/pyenv which python
+2025-10-29 23:07:51.720 [info] cwd: .
+2025-10-29 23:07:51.859 [info] Pyenv environment manager found at: /home/friz/.pyenv/bin/pyenv
+2025-10-29 23:07:52.111 [info] Native locator: Refresh finished in 1521 ms
+2025-10-29 23:07:52.115 [info] Python interpreter path: ./ml/.venv/bin/python
+2025-10-29 23:07:53.564 [info] Starting Pylance language server.
+2025-10-29 23:08:00.166 [info] Send text to terminal: source /home/friz/programming/code/personal/agent-base/ml/.venv/bin/activate
+2025-10-29 23:19:12.038 [info] Discover tests for workspace name: undefined - uri: /home/friz/.config/Code/User/settings.json

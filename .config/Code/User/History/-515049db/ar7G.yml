@@ -1,0 +1,49 @@
+services:
+  ml-api:
+    build:
+      context: ./ml
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+  ollama:
+    build:
+      context: ./model
+      dockerfile: Dockerfile
+    container_name: ollama
+    ports:
+      - "11434:11434"
+
+    volumes:
+      - ollama:/root/.ollama
+    
+    restart: unless-stopped
+
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:11434/api/tags"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+    gpus: all
+
+  ollama-init:
+    image: ollama/ollama:latest
+    depends_on:
+      ollama:
+        condition: service_healthy
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+      OLLAMA_CHAT_MODEL: ${OLLAMA_CHAT_MODEL}
+    entrypoint: ["/bin/sh", "-lc"]
+    command: |
+      : "${OLLAMA_CHAT_MODEL:?Set OLLAMA_CHAT_MODEL in .env}";
+      ollama run "${OLLAMA_CHAT_MODEL}" "ok" >/dev/null || true
+    restart: "no"
+
+
+volumes:
+  ollama:
+
+  

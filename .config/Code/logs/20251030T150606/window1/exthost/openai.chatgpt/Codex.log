@@ -1,0 +1,6 @@
+2025-10-31 11:39:27.099 [error] Error fetching /wham/usage: TypeError: fetch failed
+2025-10-31 12:17:30.636 [error] Error fetching /wham/usage: TypeError: fetch failed
+2025-10-31 12:20:18.065 [error] Error fetching /wham/usage: TypeError: fetch failed
+2025-10-31 12:22:02.645 [error] Error fetching /wham/usage: TypeError: fetch failed
+2025-10-31 12:32:06.545 [error] Error fetching /wham/usage: TypeError: fetch failed
+2025-10-31 18:33:26.979 [error] Error fetching /wham/usage: 403 Forbidden (997435f95ead2fcd-MAN)

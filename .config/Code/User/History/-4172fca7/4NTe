@@ -1,0 +1,38 @@
+# Use the official Ollama image as requested
+FROM ollama/ollama:latest
+
+# --- Create a non-root user and home for models ---
+# We'll use UID/GID 1000 for portability with your host user
+ARG APP_USER=ollama
+ARG APP_UID=1000
+ARG APP_GID=1000
+
+# Create group and user
+RUN set -eux; \
+    groupadd -g "${APP_GID}" "${APP_USER}" || true; \
+    useradd -m -u "${APP_UID}" -g "${APP_GID}" -s /bin/bash "${APP_USER}" || true
+
+# Put models in the non-root user's home instead of /root/.ollama
+ENV OLLAMA_MODELS=/home/${APP_USER}/.ollama
+
+# Create and chown the models directory
+RUN mkdir -p "${OLLAMA_MODELS}" && chown -R "${APP_UID}:${APP_GID}" "${OLLAMA_MODELS}"
+
+# --- Optional: add tini for proper signal handling and zombie reaping ---
+# (small init process; see explanation below)
+RUN set -eux; \
+    apt-get update; \
+    apt-get install -y --no-install-recommends tini curl; \
+    rm -rf /var/lib/apt/lists/*
+
+# Switch to non-root
+USER ${APP_UID}:${APP_GID}
+
+# Expose the API port (container-side)
+EXPOSE 11434/tcp
+
+# The base image already has ENTRYPOINT ["/bin/ollama"] and default CMD ["serve"].
+# We’ll wrap it with tini so the process handles signals cleanly.
+# By re-declaring ENTRYPOINT we keep CMD ["serve"] as-is.
+ENTRYPOINT ["tini","--","/bin/ollama"]
+# No CMD here -> inherit the base image's ["serve"]

@@ -1,0 +1,25 @@
+# logging.human.yaml
+version: 1
+disable_existing_loggers: false
+
+formatters:
+  line:
+    format: "%(asctime)s | %(levelname)-8s | %(name)s:%(lineno)d | %(message)s"
+    datefmt: "%Y-%m-%d %H:%M:%S"
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    level: INFO
+    formatter: line
+    stream: ext://sys.stdout
+
+loggers:
+  app:            { level: DEBUG, handlers: [console], propagate: false }
+  uvicorn:        { level: INFO }
+  uvicorn.error:  { level: INFO }
+  uvicorn.access: { level: WARNING }
+
+root:
+  level: WARNING
+  handlers: [console]

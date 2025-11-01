@@ -1,0 +1,46 @@
+2025-10-29 23:21:06.592 [info] (Client) Pylance client (2025.9.1) started with python extension (2025.16.0)
+2025-10-29 23:21:07.510 [info] (149846) Server root directory: file:///home/friz/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-10-29 23:21:07.511 [info] (149846) Pylance language server 2025.9.1 (pyright version 1.1.406, commit 20aa20a1) starting
+2025-10-29 23:21:07.517 [info] (149846) Starting service instance "agent-base" for workspace "/home/friz/programming/code/personal/agent-base"
+2025-10-29 23:21:07.607 [info] (149846) Setting environmentName for service "agent-base": "3.13.7 (ml venv)"
+2025-10-29 23:21:07.607 [info] (149846) Setting pythonPath for service "agent-base": "/home/friz/programming/code/personal/agent-base/ml/.venv/bin/python"
+2025-10-29 23:21:07.607 [info] (149846) No include entries specified; assuming /home/friz/programming/code/personal/agent-base
+2025-10-29 23:21:07.608 [info] (149846) Auto-excluding **/node_modules
+2025-10-29 23:21:07.608 [info] (149846) Auto-excluding **/__pycache__
+2025-10-29 23:21:07.609 [info] (149846) Auto-excluding **/.*
+2025-10-29 23:21:07.638 [info] (149846) Assuming Python version 3.13.7.final.0
+2025-10-29 23:21:07.729 [info] (149846) Found 8 source files
+2025-10-29 23:21:07.757 [info] (149846) Settings have not changed. Skipping update.
+2025-10-29 23:21:07.964 [info] (149846) Starting Mcp server id:3976 ...
+2025-10-29 23:21:08.558 [info] (149846) BG: Priority queue background worker(2) root directory: file:///home/friz/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-10-29 23:21:08.560 [info] (149846) BG: Priority queue background worker(2) started
+2025-10-29 23:21:08.773 [info] (149846) BG: Indexer background runner(3) root directory: file:///home/friz/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist (index)
+2025-10-29 23:21:08.773 [info] (149846) BG: Indexing(3) started
+2025-10-29 23:21:09.428 [info] (149846) BG: scanned(3) 60 files over 1 exec env
+2025-10-29 23:21:09.714 [info] (149846) BG: indexed(3) 60 files over 1 exec env
+2025-10-29 23:21:09.736 [info] (149846) BG: Indexing finished(3).
+2025-10-29 23:23:05.654 [info] (149846) Settings have not changed. Skipping update.
+2025-10-29 23:24:15.041 [info] (149846) Starting service instance "<default>" for workspace ""
+2025-10-29 23:24:15.113 [info] (149846) Setting environmentName for service "<default>": "3.13.7 (ml venv)"
+2025-10-29 23:24:15.114 [info] (149846) Setting pythonPath for service "<default>": "/home/friz/programming/code/personal/agent-base/ml/.venv/bin/python"
+2025-10-29 23:24:15.114 [info] (149846) No include entries specified; assuming /<default workspace root>
+2025-10-29 23:24:15.114 [info] (149846) Auto-excluding **/node_modules
+2025-10-29 23:24:15.114 [info] (149846) Auto-excluding **/__pycache__
+2025-10-29 23:24:15.114 [info] (149846) Auto-excluding **/.*
+2025-10-29 23:24:15.149 [info] (149846) Assuming Python version 3.13.7.final.0
+2025-10-29 23:24:15.226 [error] (149846) File or directory "/<default workspace root>" does not exist.
+2025-10-29 23:24:15.227 [info] (149846) No source files found.
+2025-10-29 23:24:15.907 [info] (149846) BG: Priority queue background worker(5) root directory: file:///home/friz/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-10-29 23:24:15.909 [info] (149846) BG: Priority queue background worker(5) started
+2025-10-30 00:23:28.087 [info] (149846) BG: Indexer background runner(6) root directory: file:///home/friz/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist (refresh)
+2025-10-30 00:23:28.087 [info] (149846) BG: Indexing(6) started
+2025-10-30 00:23:28.491 [info] (149846) BG: scanned(6) 53 files over 1 exec env
+2025-10-30 00:23:28.669 [info] (149846) BG: indexed(6) 53 files over 1 exec env
+2025-10-30 00:23:28.680 [info] (149846) BG: Indexing finished(6).
+2025-10-30 00:23:40.076 [info] (149846) BG: Indexer background runner(7) root directory: file:///home/friz/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist (refresh)
+2025-10-30 00:23:40.076 [info] (149846) BG: Indexing(7) started
+2025-10-30 00:23:40.583 [info] (149846) BG: scanned(7) 57 files over 1 exec env
+2025-10-30 00:23:40.966 [info] (149846) BG: indexed(7) 57 files over 1 exec env
+2025-10-30 00:23:40.986 [info] (149846) BG: Indexing finished(7).
+2025-10-30 01:06:39.287 [info] (149846) Found 9 source files
+2025-10-30 01:08:27.892 [info] (149846) Found 9 source files

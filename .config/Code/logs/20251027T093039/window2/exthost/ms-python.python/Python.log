@@ -1,0 +1,10 @@
+2025-10-27 17:54:04.858 [info] Native locator: Refresh started
+2025-10-27 17:54:05.122 [info] Native locator: Refresh started
+2025-10-27 17:54:05.198 [info] > conda info --json
+2025-10-27 17:54:05.266 [info] > /usr/share/anaconda/bin/conda info --json
+2025-10-27 17:54:05.495 [info] > ~/.pyenv/bin/pyenv which python
+2025-10-27 17:54:05.495 [info] cwd: .
+2025-10-27 17:54:05.550 [info] Pyenv environment manager found at: /home/friz/.pyenv/bin/pyenv
+2025-10-27 17:54:05.830 [info] Native locator: Refresh finished in 1808 ms
+2025-10-27 17:54:05.834 [info] Python interpreter path: /bin/python
+2025-10-27 17:54:07.746 [info] Starting Pylance language server.

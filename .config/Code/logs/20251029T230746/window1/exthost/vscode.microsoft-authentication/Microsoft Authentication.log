@@ -1,0 +1,23 @@
+2025-10-29 23:19:11.388 [info] [getSessions] [all] starting
+2025-10-29 23:19:11.388 [info] [getSessions] [all] returned 0 session(s)
+2025-10-29 23:19:11.388 [info] [getSessions] [all] starting
+2025-10-29 23:19:11.388 [info] [getSessions] [all] returned 0 session(s)
+2025-10-29 23:19:11.388 [info] [getSessions] [all] starting
+2025-10-29 23:19:11.388 [info] [getSessions] [all] returned 0 session(s)
+2025-10-29 23:19:11.388 [info] [getSessions] [all] starting
+2025-10-29 23:19:11.388 [info] [getSessions] [all] returned 0 session(s)
+2025-10-29 23:19:11.407 [info] [getSessions] [all] starting
+2025-10-29 23:19:11.407 [info] [getSessions] [all] returned 0 session(s)
+2025-10-29 23:19:11.438 [info] [getSessions] [https://management.azure.com/.default] starting
+2025-10-29 23:19:11.438 [info] [aebc6443-996d-45c2-90f0-388ff96faa56] Native Broker is only available on Windows and macOS
+2025-10-29 23:19:19.503 [info] [getSessions] [https://management.azure.com/.default] returned 0 session(s)
+2025-10-29 23:19:40.209 [info] [getSessions] [all] starting
+2025-10-29 23:19:40.209 [info] [getSessions] [all] returned 0 session(s)
+2025-10-29 23:19:44.716 [info] [getSessions] [all] starting
+2025-10-29 23:19:44.716 [info] [getSessions] [all] returned 0 session(s)
+2025-10-29 23:19:48.689 [info] [getSessions] [all] starting
+2025-10-29 23:19:48.689 [info] [getSessions] [all] returned 0 session(s)
+2025-10-29 23:20:12.341 [info] [getSessions] [all] starting
+2025-10-29 23:20:12.341 [info] [getSessions] [all] returned 0 session(s)
+2025-10-29 23:20:14.719 [info] [getSessions] [all] starting
+2025-10-29 23:20:14.719 [info] [getSessions] [all] returned 0 session(s)

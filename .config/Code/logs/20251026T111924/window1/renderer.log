@@ -1,0 +1,132 @@
+2025-10-26 11:19:25.436 [info] Started local extension host with pid 33260.
+2025-10-26 11:19:25.579 [error] Extension 'openai.chatgpt' wants API proposal 'languageModelProxy' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-10-26 11:19:25.579 [error] Extension 'openai.chatgpt CANNOT USE these API proposals 'chatSessionsProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-10-26 11:19:28.367 [info] MCP Registry configured: https://api.mcp.github.com/2025-09-15
+2025-10-26 11:19:28.750 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-26 11:19:29.190 [info] [perf] Render performance baseline is 29ms
+2025-10-26 11:34:56.409 [error] [Extension Host] (node:33260) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-10-26 11:47:43.008 [error] [Extension Host] (node:33260) [DEP0051] DeprecationWarning: The `util.isNullOrUndefined` API is deprecated. Please use `arg === null || arg === undefined` instead.
+2025-10-26 11:48:06.353 [error] [Extension Host] (node:33260) [DEP0052] DeprecationWarning: The `util.isNumber` API is deprecated. Please use `typeof arg === "number"` instead.
+2025-10-26 12:02:19.566 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-10-26 12:02:23.225 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2025-10-26 12:12:05.259 [error] Unknown (FileSystemError): Failed to move 'data' to the trash (Failed to move item to trash)
+    at v7.create (file:///usr/share/code/resources/app/out/main.js:38:29705)
+    at Qi (file:///usr/share/code/resources/app/out/main.js:38:26959)
+    at y4.z (file:///usr/share/code/resources/app/out/main.js:62:26564)
+2025-10-26 12:12:05.270 [error] Failed to move 'data' to the trash (Failed to move item to trash): Unknown (FileSystemError): Failed to move 'data' to the trash (Failed to move item to trash)
+    at v7.create (file:///usr/share/code/resources/app/out/main.js:38:29705)
+    at Qi (file:///usr/share/code/resources/app/out/main.js:38:26959)
+    at y4.z (file:///usr/share/code/resources/app/out/main.js:62:26564)
+2025-10-26 12:12:13.408 [error] NoPermissions (FileSystemError): Error: EACCES: permission denied, rmdir '/home/friz/programming/code/personal/agent-base/model/data/ollama'
+    at v7.create (file:///usr/share/code/resources/app/out/main.js:38:29705)
+    at Qi (file:///usr/share/code/resources/app/out/main.js:38:26959)
+    at _c.jb (file:///usr/share/code/resources/app/out/main.js:62:22448)
+    at _c.delete (file:///usr/share/code/resources/app/out/main.js:62:20569)
+2025-10-26 12:12:13.424 [error] Error: EACCES: permission denied, rmdir '/home/friz/programming/code/personal/agent-base/model/data/ollama': NoPermissions (FileSystemError): Error: EACCES: permission denied, rmdir '/home/friz/programming/code/personal/agent-base/model/data/ollama'
+    at v7.create (file:///usr/share/code/resources/app/out/main.js:38:29705)
+    at Qi (file:///usr/share/code/resources/app/out/main.js:38:26959)
+    at _c.jb (file:///usr/share/code/resources/app/out/main.js:62:22448)
+    at _c.delete (file:///usr/share/code/resources/app/out/main.js:62:20569)
+2025-10-26 12:12:16.611 [error] NoPermissions (FileSystemError): Error: EACCES: permission denied, rmdir '/home/friz/programming/code/personal/agent-base/model/data/ollama'
+    at v7.create (file:///usr/share/code/resources/app/out/main.js:38:29705)
+    at Qi (file:///usr/share/code/resources/app/out/main.js:38:26959)
+    at _c.jb (file:///usr/share/code/resources/app/out/main.js:62:22448)
+    at _c.delete (file:///usr/share/code/resources/app/out/main.js:62:20569)
+2025-10-26 12:12:16.634 [error] Error: EACCES: permission denied, rmdir '/home/friz/programming/code/personal/agent-base/model/data/ollama': NoPermissions (FileSystemError): Error: EACCES: permission denied, rmdir '/home/friz/programming/code/personal/agent-base/model/data/ollama'
+    at v7.create (file:///usr/share/code/resources/app/out/main.js:38:29705)
+    at Qi (file:///usr/share/code/resources/app/out/main.js:38:26959)
+    at _c.jb (file:///usr/share/code/resources/app/out/main.js:62:22448)
+    at _c.delete (file:///usr/share/code/resources/app/out/main.js:62:20569)
+2025-10-26 12:14:49.802 [error] Can only set when there is a listener! This is to prevent leaks.: Error: Can only set when there is a listener! This is to prevent leaks.
+    at DMt.set (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:455:2798)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:13219
+    at Vi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:103828)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:12993
+    at async wWe.trigger (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:35633)
+2025-10-26 12:14:51.681 [error] Can only set when there is a listener! This is to prevent leaks.: Error: Can only set when there is a listener! This is to prevent leaks.
+    at DMt.set (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:455:2798)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:13055
+    at Vi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:103828)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:12993
+2025-10-26 12:14:52.704 [error] Can only set when there is a listener! This is to prevent leaks.: Error: Can only set when there is a listener! This is to prevent leaks.
+    at DMt.set (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:455:2798)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:13219
+    at Vi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:103828)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:12993
+    at async wWe.trigger (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:35633)
+2025-10-26 12:14:53.258 [error] Can only set when there is a listener! This is to prevent leaks.: Error: Can only set when there is a listener! This is to prevent leaks.
+    at DMt.set (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:455:2798)
+    at mWe.clear (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:13580)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:35954
+    at h2 (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:104074)
+    at wWe.stop (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:35812)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:469:3818
+    at Vi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:103828)
+    at C6._runFn (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:469:3809)
+    at C6.k (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:5636)
+    at C6.endUpdate (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:6050)
+2025-10-26 12:14:55.243 [error] Can only set when there is a listener! This is to prevent leaks.: Error: Can only set when there is a listener! This is to prevent leaks.
+    at DMt.set (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:455:2798)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:13219
+    at Vi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:103828)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:12993
+    at async wWe.trigger (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:35633)
+2025-10-26 12:14:56.617 [error] Can only set when there is a listener! This is to prevent leaks.: Error: Can only set when there is a listener! This is to prevent leaks.
+    at DMt.set (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:455:2798)
+    at mWe.clear (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:13580)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:35954
+    at h2 (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:104074)
+    at wWe.stop (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:35812)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:469:3818
+    at Vi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:103828)
+    at C6._runFn (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:469:3809)
+    at C6.k (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:5636)
+    at C6.endUpdate (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:6050)
+2025-10-26 12:15:16.989 [error] Can only set when there is a listener! This is to prevent leaks.: Error: Can only set when there is a listener! This is to prevent leaks.
+    at DMt.set (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:455:2798)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:13219
+    at Vi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:103828)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:12993
+    at async wWe.trigger (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:35633)
+2025-10-26 12:15:18.279 [error] Can only set when there is a listener! This is to prevent leaks.: Error: Can only set when there is a listener! This is to prevent leaks.
+    at DMt.set (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:455:2798)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:13219
+    at Vi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:103828)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:12993
+    at async wWe.trigger (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:35633)
+2025-10-26 12:15:19.434 [error] Can only set when there is a listener! This is to prevent leaks.: Error: Can only set when there is a listener! This is to prevent leaks.
+    at DMt.set (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:455:2798)
+    at mWe.clear (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:13580)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:35954
+    at h2 (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:104074)
+    at wWe.stop (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:456:35812)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:469:3818
+    at Vi (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:103828)
+    at C6._runFn (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:469:3809)
+    at C6.k (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:5636)
+    at C6.endUpdate (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:31:6050)
+2025-10-26 13:31:40.416 [error] TreeError [DebugRepl] Tree input not set: Error: TreeError [DebugRepl] Tree input not set
+    at Fg.C (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:429:29219)
+    at Fg.updateChildren (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:429:29000)
+    at Bae.value (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2620:33782)
+    at E.C (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2392)
+    at E.D (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2462)
+    at E.fire (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:29:2680)
+    at CEe.setVisible (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:569:2730)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:595:13938
+    at Array.map (<anonymous>)
+    at Yd.setVisible (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:595:13929)
+2025-10-26 18:06:29.043 [error] Uncaught Error: Assertion Failed
+
+Error: Assertion Failed
+    at vt (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/editor/common/services/editorWebWorkerMain.js#TextEditorWorker:7:10306)
+    at ui (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/editor/common/services/editorWebWorkerMain.js#TextEditorWorker:45:5400)
+    at Eo.computeDiff (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/editor/common/services/editorWebWorkerMain.js#TextEditorWorker:48:1473)
+    at _t.h (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/editor/common/services/editorWebWorkerMain.js#TextEditorWorker:51:31550)
+    at _t.$computeDiff (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/editor/common/services/editorWebWorkerMain.js#TextEditorWorker:51:31419)
+    at $l.d (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/editor/common/services/editorWebWorkerMain.js#TextEditorWorker:26:66699)
+    at Object.handleMessage (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/editor/common/services/editorWebWorkerMain.js#TextEditorWorker:26:66267)
+    at Sl.k (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/editor/common/services/editorWebWorkerMain.js#TextEditorWorker:26:65268)
+    at Sl.h (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/editor/common/services/editorWebWorkerMain.js#TextEditorWorker:26:64899)
+    at Sl.handleMessage (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/editor/common/services/editorWebWorkerMain.js#TextEditorWorker:26:64554)

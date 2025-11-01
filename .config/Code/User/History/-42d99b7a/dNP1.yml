@@ -1,0 +1,39 @@
+services:
+  ml_api:
+    build: .
+    command: python -m src.ml_api
+    environment:
+      - ML_API_PORT=5001
+      - SGLANG_URL=http://sglang:30000/v1/chat/completions
+      - SGLANG_MODEL=Qwen/Qwen3-0.6B
+    ports:
+      - "5001:5001"
+
+  mock_server:
+    build: .
+    command: python -m mock_server.server
+    environment:
+      - MOCK_SERVER_PORT=5002
+      - ML_API_URL=http://ml_api:5001/ping
+    depends_on:
+      - ml_api
+    ports:
+      - "5002:5002"
+
+  sglang:
+    build: .
+    command: >
+      python -m sglang.launch_server
+      --model-path Qwen/Qwen3-0.6B
+      --reasoning-parser qwen3
+      --host 0.0.0.0
+      --port 30000
+    ports:
+      - "30000:30000"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]

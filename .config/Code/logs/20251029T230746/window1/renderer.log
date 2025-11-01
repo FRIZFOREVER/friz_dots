@@ -1,0 +1,52 @@
+2025-10-29 23:07:48.027 [info] Started local extension host with pid 140916.
+2025-10-29 23:07:49.016 [error] Extension 'openai.chatgpt' wants API proposal 'languageModelProxy' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-10-29 23:07:49.016 [error] Extension 'openai.chatgpt CANNOT USE these API proposals 'chatSessionsProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-10-29 23:07:50.156 [info] MCP Registry configured: https://api.mcp.github.com/2025-09-15
+2025-10-29 23:07:50.235 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-10-29 23:07:52.167 [error] Collection or definition not found for ms-python.vscode-pylance/pylanceMcp and ms-python.vscode-pylance/pylance mcp server: Error: Collection or definition not found for ms-python.vscode-pylance/pylanceMcp and ms-python.vscode-pylance/pylance mcp server
+    at qct.resolveConnection (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2240:2218)
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2240:13693
+    at vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:30:73168
+2025-10-29 23:07:52.672 [error] [UriError]: Scheme contains illegal characters.: Error: [UriError]: Scheme contains illegal characters.
+    at z6 (file:///usr/share/code/resources/app/out/main.js:30:64302)
+    at new nd (file:///usr/share/code/resources/app/out/main.js:30:67682)
+    at new zr (file:///usr/share/code/resources/app/out/main.js:30:69120)
+    at nd.revive (file:///usr/share/code/resources/app/out/main.js:30:68897)
+    at o5.call (file:///usr/share/code/resources/app/out/main.js:88:105739)
+    at Lf.s (file:///usr/share/code/resources/app/out/main.js:31:14859)
+    at Lf.q (file:///usr/share/code/resources/app/out/main.js:31:14382)
+    at Xo.value (file:///usr/share/code/resources/app/out/main.js:31:13784)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2373)
+    at P.D (file:///usr/share/code/resources/app/out/main.js:30:2443)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2660)
+    at Xo.value (file:///usr/share/code/resources/app/out/main.js:28:5145)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2591)
+    at Xo.value (file:///usr/share/code/resources/app/out/main.js:28:5333)
+    at P.C (file:///usr/share/code/resources/app/out/main.js:30:2373)
+    at P.fire (file:///usr/share/code/resources/app/out/main.js:30:2591)
+    at F (file:///usr/share/code/resources/app/out/main.js:28:7627)
+    at IpcMainImpl.i (file:///usr/share/code/resources/app/out/main.js:36:10776)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106370)
+    at Session.emit (node:events:519:28)
+2025-10-29 23:08:00.164 [info] Auto updating outdated extensions. openai.chatgpt
+2025-10-29 23:08:08.833 [error] Cancelled: Canceled: Canceled
+    at BJe.P (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1352:36760)
+    at async BJe.O (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1352:35489)
+    at async BJe.D (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1352:24298)
+    at async vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1352:23769
+    at async Promise.all (index 1)
+    at async BJe.C (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1352:23720)
+    at async BJe.getExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1352:22377)
+    at async Hht.getExtensions (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2485:15150)
+    at async kqs.Rc (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2481:17026)
+    at async kqs.$c (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2481:19670)
+2025-10-29 23:08:19.707 [info] [perf] Render performance baseline is 31ms
+2025-10-29 23:08:20.666 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-10-29 23:13:50.705 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-10-29 23:18:50.758 [warning] Failed to fetch chat participant registry Failed to fetch
+2025-10-29 23:19:12.176 [error] [LM] Error resolving language models for vendor aitk-foundry-local: Provider Foundry Local not found
+2025-10-29 23:19:15.303 [warning] [LM] Model aitk-foundry/Azure AI Foundry/gpt-5-chat is already registered. Skipping.
+2025-10-29 23:19:40.201 [error] [Extension Host] (node:140916) [DEP0051] DeprecationWarning: The `util.isNullOrUndefined` API is deprecated. Please use `arg === null || arg === undefined` instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)

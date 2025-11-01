@@ -1,0 +1,38 @@
+2025-10-30 15:06:09.320 [info] Extension host with pid 28645 started
+2025-10-30 15:06:09.320 [info] Skipping acquiring lock for /home/friz/.config/Code/User/workspaceStorage/2fda8e92d0aa23cab4109f737eb04c46.
+2025-10-30 15:06:09.556 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-10-30 15:06:09.604 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-30 15:06:09.628 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-10-30 15:06:09.876 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-10-30 15:06:10.487 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2025-10-30 15:06:10.540 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2025-10-30 15:06:10.542 [info] ExtensionService#_doActivateExtension openai.chatgpt, startup: false, activationEvent: 'onView:chatgpt.sidebarView'
+2025-10-30 15:06:11.023 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-10-30 15:06:11.088 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2025-10-30 15:06:11.135 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-10-30 15:06:11.238 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-30 15:06:11.610 [info] Eager extensions activated
+2025-10-30 15:06:11.617 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-10-30 15:06:11.706 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-30 15:06:11.713 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-30 15:06:11.743 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2025-10-30 15:06:14.284 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2025-10-30 15:06:14.326 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2025-10-30 15:09:19.855 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-containers, startup: false, activationEvent: 'onLanguage:dockerfile'
+2025-10-31 20:49:53.714 [info] ExtensionService#_doActivateExtension golang.go, startup: false, activationEvent: 'onLanguage:go.mod'
+2025-10-31 20:49:53.839 [error] Activating extension golang.go failed due to an error:
+2025-10-31 20:49:53.839 [error] undefined
+2025-11-01 13:33:15.700 [info] Extension host terminating: renderer closed the MessagePort
+2025-11-01 13:33:15.845 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.X [as deactivate] (/home/friz/.vscode/extensions/ms-python.vscode-python-envs-1.10.0-linux-x64/dist/extension.js:2:668401)
+	at SZ.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+	at Array.map (<anonymous>)
+	at SZ.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+	at SZ.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+	at H3.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+	at Ss (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2025-11-01 13:33:15.849 [info] Extension host with pid 28645 exiting with code 0

@@ -1,0 +1,13 @@
+[project]
+name = "agent-base"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.7"
+dependencies = [
+    "fastapi>=0.119.1",
+    "logging>=0.4.9.6",
+    "pydantic>=2.12.3",
+    "requests>=2.32.5",
+    "sglang[all]>=0.5.3.post3",
+]

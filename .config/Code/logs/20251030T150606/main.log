@@ -1,0 +1,100 @@
+2025-10-30 15:06:06.710 [info] update#setState idle
+2025-10-30 15:06:36.712 [info] update#setState checking for updates
+2025-10-30 15:06:36.794 [info] update#setState idle
+2025-10-30 16:06:36.714 [info] update#setState checking for updates
+2025-10-30 16:06:37.391 [info] update#setState idle
+2025-10-30 17:06:36.721 [info] update#setState checking for updates
+2025-10-30 17:06:37.321 [info] update#setState idle
+2025-10-30 18:06:36.727 [info] update#setState checking for updates
+2025-10-30 18:06:37.362 [info] update#setState idle
+2025-10-30 19:06:36.732 [info] update#setState checking for updates
+2025-10-30 19:06:37.338 [info] update#setState idle
+2025-10-30 20:06:36.736 [info] update#setState checking for updates
+2025-10-30 20:06:37.390 [info] update#setState idle
+2025-10-30 21:06:36.739 [info] update#setState checking for updates
+2025-10-30 21:06:37.423 [info] update#setState idle
+2025-10-30 22:06:36.745 [info] update#setState checking for updates
+2025-10-30 22:06:37.342 [info] update#setState idle
+2025-10-30 23:06:36.748 [info] update#setState checking for updates
+2025-10-30 23:06:37.436 [info] update#setState idle
+2025-10-31 00:06:36.752 [info] update#setState checking for updates
+2025-10-31 00:06:37.424 [info] update#setState idle
+2025-10-31 01:06:36.753 [info] update#setState checking for updates
+2025-10-31 01:06:37.363 [info] update#setState idle
+2025-10-31 02:06:36.757 [info] update#setState checking for updates
+2025-10-31 02:06:37.440 [info] update#setState idle
+2025-10-31 03:06:36.760 [info] update#setState checking for updates
+2025-10-31 03:06:37.794 [info] update#setState idle
+2025-10-31 04:06:36.763 [info] update#setState checking for updates
+2025-10-31 04:06:37.469 [info] update#setState idle
+2025-10-31 05:06:36.766 [info] update#setState checking for updates
+2025-10-31 05:06:37.455 [info] update#setState idle
+2025-10-31 06:06:36.770 [info] update#setState checking for updates
+2025-10-31 06:06:37.403 [info] update#setState idle
+2025-10-31 07:06:36.774 [info] update#setState checking for updates
+2025-10-31 07:06:37.539 [info] update#setState idle
+2025-10-31 08:06:36.779 [info] update#setState checking for updates
+2025-10-31 08:06:37.602 [info] update#setState idle
+2025-10-31 09:06:36.785 [info] update#setState checking for updates
+2025-10-31 09:06:37.498 [info] update#setState idle
+2025-10-31 10:06:36.788 [info] update#setState checking for updates
+2025-10-31 10:06:37.459 [info] update#setState idle
+2025-10-31 11:06:36.790 [info] update#setState checking for updates
+2025-10-31 11:06:37.486 [info] update#setState idle
+2025-10-31 12:06:36.794 [info] update#setState checking for updates
+2025-10-31 12:06:37.498 [error] Error: Server returned 503
+    at j4 (file:///usr/share/code/resources/app/out/main.js:64:10021)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2025-10-31 12:06:37.500 [info] update#setState idle
+2025-10-31 13:06:36.797 [info] update#setState checking for updates
+2025-10-31 13:06:37.467 [info] update#setState idle
+2025-10-31 14:06:36.800 [info] update#setState checking for updates
+2025-10-31 14:06:37.468 [info] update#setState idle
+2025-10-31 15:06:36.802 [info] update#setState checking for updates
+2025-10-31 15:06:37.546 [info] update#setState idle
+2025-10-31 16:06:36.805 [info] update#setState checking for updates
+2025-10-31 16:06:37.463 [info] update#setState idle
+2025-10-31 17:06:36.807 [info] update#setState checking for updates
+2025-10-31 17:06:37.523 [info] update#setState idle
+2025-10-31 18:06:36.811 [info] update#setState checking for updates
+2025-10-31 18:06:37.425 [info] update#setState idle
+2025-10-31 19:06:36.815 [info] update#setState checking for updates
+2025-10-31 19:06:37.639 [info] update#setState idle
+2025-10-31 20:06:36.818 [info] update#setState checking for updates
+2025-10-31 20:06:37.571 [info] update#setState idle
+2025-10-31 21:06:36.822 [info] update#setState checking for updates
+2025-10-31 21:06:37.482 [info] update#setState idle
+2025-10-31 22:06:36.831 [info] update#setState checking for updates
+2025-10-31 22:06:37.548 [info] update#setState idle
+2025-10-31 23:06:36.834 [info] update#setState checking for updates
+2025-10-31 23:06:37.538 [info] update#setState idle
+2025-11-01 00:06:36.844 [info] update#setState checking for updates
+2025-11-01 00:06:37.436 [info] update#setState idle
+2025-11-01 01:06:36.850 [info] update#setState checking for updates
+2025-11-01 01:06:37.556 [info] update#setState idle
+2025-11-01 02:06:36.860 [info] update#setState checking for updates
+2025-11-01 02:06:37.491 [info] update#setState idle
+2025-11-01 03:06:36.870 [info] update#setState checking for updates
+2025-11-01 03:06:37.662 [info] update#setState idle
+2025-11-01 04:06:36.875 [info] update#setState checking for updates
+2025-11-01 04:06:37.567 [info] update#setState idle
+2025-11-01 05:06:36.880 [info] update#setState checking for updates
+2025-11-01 05:06:37.623 [info] update#setState idle
+2025-11-01 06:06:36.883 [info] update#setState checking for updates
+2025-11-01 06:06:37.574 [info] update#setState idle
+2025-11-01 07:06:36.886 [info] update#setState checking for updates
+2025-11-01 07:06:37.479 [info] update#setState idle
+2025-11-01 08:06:36.888 [info] update#setState checking for updates
+2025-11-01 08:06:37.635 [info] update#setState idle
+2025-11-01 09:06:36.892 [info] update#setState checking for updates
+2025-11-01 09:06:37.558 [info] update#setState idle
+2025-11-01 10:06:36.895 [info] update#setState checking for updates
+2025-11-01 10:06:37.511 [info] update#setState idle
+2025-11-01 11:06:36.896 [info] update#setState checking for updates
+2025-11-01 11:06:37.622 [info] update#setState idle
+2025-11-01 12:06:36.900 [info] update#setState checking for updates
+2025-11-01 12:06:37.542 [info] update#setState idle
+2025-11-01 13:06:36.905 [info] update#setState checking for updates
+2025-11-01 13:06:37.537 [info] update#setState idle
+2025-11-01 13:33:15.932 [info] Extension host with pid 28645 exited with code: 0, signal: unknown.
+2025-11-01 13:33:16.020 [error] [UtilityProcess id: 1, type: fileWatcher, pid: 28660]: crashed with code 15 and reason 'killed'

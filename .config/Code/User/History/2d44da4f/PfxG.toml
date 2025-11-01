@@ -1,0 +1,14 @@
+[project]
+name = "agent-base"
+version = "0.1.0"
+authors = [
+    { name = "FRIZFOREVER", email = "kirillhromov@mail.ru" }
+]
+dependencies = []
+
+[project.scripts]
+agent-base = "agent_base:main"
+
+[build-system]
+requires = ["uv_build>=0.9.4,<0.10.0"]
+build-backend = "uv_build"

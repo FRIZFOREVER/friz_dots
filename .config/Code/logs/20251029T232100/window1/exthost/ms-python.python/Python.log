@@ -1,0 +1,51 @@
+2025-10-29 23:21:05.045 [info] Native locator: Refresh started
+2025-10-29 23:21:05.490 [info] Native locator: Refresh started
+2025-10-29 23:21:05.870 [info] > conda info --json
+2025-10-29 23:21:05.911 [info] > /usr/share/anaconda/bin/conda info --json
+2025-10-29 23:21:05.940 [info] > ~/.pyenv/bin/pyenv which python
+2025-10-29 23:21:05.940 [info] cwd: .
+2025-10-29 23:21:05.947 [info] Pyenv environment manager found at: /home/friz/.pyenv/bin/pyenv
+2025-10-29 23:21:06.015 [info] Native locator: Refresh finished in 1817 ms
+2025-10-29 23:21:06.017 [info] Python interpreter path: ./ml/.venv/bin/python
+2025-10-29 23:21:07.543 [info] Starting Pylance language server.
+2025-10-29 23:21:09.045 [info] Send text to terminal: source /home/friz/programming/code/personal/agent-base/ml/.venv/bin/activate
+2025-10-29 23:24:06.028 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-29 23:24:27.687 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-29 23:27:22.043 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-29 23:29:11.694 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-29 23:30:15.105 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/configs/model_config.py
+2025-10-30 00:15:33.361 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-30 00:23:08.430 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-30 00:30:00.363 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-30 00:35:57.686 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-30 00:39:35.984 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-30 00:39:39.958 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-30 00:40:03.554 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-30 00:41:58.168 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-30 00:47:50.568 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-30 00:49:06.459 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-30 00:50:10.681 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-30 00:58:15.238 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-30 00:58:34.070 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-30 00:58:48.338 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-30 01:00:28.457 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-30 01:02:57.076 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-30 01:03:11.175 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-30 01:03:46.126 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-30 01:04:30.013 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-30 01:04:56.200 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-30 01:09:52.113 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/configs/message.py
+2025-10-30 01:25:58.599 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/configs/message.py
+2025-10-30 01:26:33.018 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/configs/message.py
+2025-10-30 01:26:45.879 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/configs/message.py
+2025-10-30 01:26:49.489 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/configs/message.py
+2025-10-30 01:27:12.261 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/configs/message.py
+2025-10-30 01:27:14.045 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/configs/message.py
+2025-10-30 01:27:28.026 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/configs/message.py
+2025-10-30 01:27:34.753 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/configs/message.py
+2025-10-30 01:28:56.117 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py
+2025-10-30 01:33:13.305 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/configs/model_config.py
+2025-10-30 01:33:39.178 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/configs/model_config.py
+2025-10-30 01:34:30.936 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/configs/model_config.py
+2025-10-30 01:36:15.022 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/configs/model_config.py
+2025-10-30 01:37:45.400 [info] Discover tests for workspace name: agent-base - uri: /home/friz/programming/code/personal/agent-base/ml/src/ml/agent/calls/ollama_calls.py

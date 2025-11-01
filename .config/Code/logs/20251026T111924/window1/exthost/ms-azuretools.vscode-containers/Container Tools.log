@@ -1,0 +1,6 @@
+2025-10-26 11:46:26.530 [info] Attempting to autodetect Docker Compose command...
+2025-10-26 11:46:26.977 [error] validating /home/friz/programming/code/personal/agent-base/compose.yml: services.ollama additional properties 'device_requests' not allowed
+
+2025-10-26 11:46:27.049 [error] validating /home/friz/programming/code/personal/agent-base/compose.yml: services.ollama additional properties 'device_requests' not allowed
+
+2025-10-26 11:46:27.055 [info] Error: validating /home/friz/programming/code/personal/agent-base/compose.yml: services.ollama additional properties 'device_requests' not allowed

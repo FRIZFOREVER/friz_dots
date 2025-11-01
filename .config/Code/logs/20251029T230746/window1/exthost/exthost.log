@@ -1,0 +1,45 @@
+2025-10-29 23:07:49.102 [info] Extension host with pid 140916 started
+2025-10-29 23:07:49.103 [info] Skipping acquiring lock for /home/friz/.config/Code/User/workspaceStorage/2fda8e92d0aa23cab4109f737eb04c46.
+2025-10-29 23:07:49.485 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-10-29 23:07:49.521 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-10-29 23:07:49.541 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2025-10-29 23:07:49.797 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2025-10-29 23:07:50.398 [info] ExtensionService#_doActivateExtension ms-python.vscode-python-envs, startup: false, activationEvent: 'onLanguage:python'
+2025-10-29 23:07:50.456 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2025-10-29 23:07:50.458 [info] ExtensionService#_doActivateExtension openai.chatgpt, startup: false, activationEvent: 'onView:chatgpt.sidebarView'
+2025-10-29 23:07:50.989 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-10-29 23:07:51.111 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2025-10-29 23:07:51.150 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-10-29 23:07:51.245 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-10-29 23:07:51.486 [info] Eager extensions activated
+2025-10-29 23:07:51.493 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2025-10-29 23:07:51.567 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-10-29 23:07:51.570 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-10-29 23:07:51.977 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2025-10-29 23:07:53.925 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2025-10-29 23:07:53.926 [warning] DiagnosticCollection with name 'Pylance' does already exist.
+2025-10-29 23:18:21.568 [info] ExtensionService#_doActivateExtension ms-vscode-remote.remote-containers, startup: false, activationEvent: 'onStartupFinished'
+2025-10-29 23:19:10.168 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-azureresourcegroups, startup: false, activationEvent: 'onView:azure-ai-foundry-resources', root cause: TeamsDevApp.vscode-ai-foundry
+2025-10-29 23:19:10.309 [info] ExtensionService#_doActivateExtension ms-windows-ai-studio.windows-ai-studio, startup: false, activationEvent: 'onView:azure-ai-foundry-resources', root cause: TeamsDevApp.vscode-ai-foundry
+2025-10-29 23:19:11.205 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2025-10-29 23:19:11.541 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-29 23:19:11.558 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-29 23:19:11.621 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-10-29 23:19:11.742 [info] ExtensionService#_doActivateExtension TeamsDevApp.vscode-ai-foundry, startup: false, activationEvent: 'onView:azure-ai-foundry-resources'
+2025-10-29 23:19:12.447 [warning] [TeamsDevApp.vscode-ai-foundry] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+2025-10-29 23:20:41.738 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-containers, startup: false, activationEvent: 'onView:vscode-containers.views.containers'
+2025-10-29 23:20:53.456 [info] Extension host terminating: renderer closed the MessagePort
+2025-10-29 23:20:53.537 [error] TypeError: Cannot read properties of undefined (reading 'subscriptions')
+	at Object.X [as deactivate] (/home/friz/.vscode/extensions/ms-python.vscode-python-envs-1.10.0-linux-x64/dist/extension.js:2:668401)
+	at SZ.eb (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:11797)
+	at file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9947
+	at Array.map (<anonymous>)
+	at SZ.$ (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9935)
+	at SZ.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:10178)
+	at H3.terminate (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:914)
+	at Ss (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:10409)
+	at MessagePortMain.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:393:6948)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-10-29 23:20:53.557 [info] Extension host with pid 140916 exiting with code 0

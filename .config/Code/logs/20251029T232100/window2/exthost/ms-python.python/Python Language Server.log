@@ -1,0 +1,37 @@
+2025-10-30 01:01:12.404 [info] (Client) Pylance client (2025.9.1) started with python extension (2025.16.0)
+2025-10-30 01:01:13.747 [info] (202211) Server root directory: file:///home/friz/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-10-30 01:01:13.747 [info] (202211) Pylance language server 2025.9.1 (pyright version 1.1.406, commit 20aa20a1) starting
+2025-10-30 01:01:13.755 [info] (202211) Starting service instance "sandbox" for workspace "/home/friz/programming/code/sandbox"
+2025-10-30 01:01:13.889 [info] (202211) Setting environmentName for service "sandbox": "3.12.7 (3.12.7 venv)"
+2025-10-30 01:01:13.889 [info] (202211) Setting pythonPath for service "sandbox": "/home/friz/.pyenv/versions/3.12.7/bin/python"
+2025-10-30 01:01:13.889 [info] (202211) No include entries specified; assuming /home/friz/programming/code/sandbox
+2025-10-30 01:01:13.890 [info] (202211) Auto-excluding **/node_modules
+2025-10-30 01:01:13.890 [info] (202211) Auto-excluding **/__pycache__
+2025-10-30 01:01:13.890 [info] (202211) Auto-excluding **/.*
+2025-10-30 01:01:13.931 [info] (202211) Assuming Python version 3.12.7.final.0
+2025-10-30 01:01:14.017 [info] (202211) No source files found.
+2025-10-30 01:01:14.040 [info] (202211) Settings have not changed. Skipping update.
+2025-10-30 01:01:14.042 [info] (202211) Starting Mcp server id:5992 ...
+2025-10-30 01:01:14.784 [info] (202211) BG: Priority queue background worker(2) root directory: file:///home/friz/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-10-30 01:01:14.784 [info] (202211) BG: Priority queue background worker(2) started
+2025-10-30 01:01:31.242 [info] (202211) Starting service instance "sandbox" for workspace "/home/friz/programming/code/sandbox"
+2025-10-30 01:01:31.329 [info] (202211) Setting environmentName for service "sandbox": "3.12.7 (3.12.7 venv)"
+2025-10-30 01:01:31.330 [info] (202211) Setting pythonPath for service "sandbox": "/bin/python"
+2025-10-30 01:01:31.331 [info] (202211) No include entries specified; assuming /home/friz/programming/code/sandbox
+2025-10-30 01:01:31.332 [info] (202211) Auto-excluding **/node_modules
+2025-10-30 01:01:31.333 [info] (202211) Auto-excluding **/__pycache__
+2025-10-30 01:01:31.336 [info] (202211) Auto-excluding **/.*
+2025-10-30 01:01:31.419 [info] (202211) Assuming Python version 3.13.7.final.0
+2025-10-30 01:01:31.914 [info] (202211) No source files found.
+2025-10-30 01:01:32.492 [info] (202211) BG: Priority queue background worker(4) root directory: file:///home/friz/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist
+2025-10-30 01:01:32.494 [info] (202211) BG: Priority queue background worker(4) started
+2025-10-30 01:01:32.933 [info] (202211) BG: Indexer background runner(5) root directory: file:///home/friz/.vscode/extensions/ms-python.vscode-pylance-2025.9.1/dist (index)
+2025-10-30 01:01:32.933 [info] (202211) BG: Indexing(5) started
+2025-10-30 01:01:34.042 [info] (202211) BG: scanned(5) 378 files over 1 exec env
+2025-10-30 01:01:41.471 [info] (202211) BG: [IDX(5)] Long operation: binding: file:///usr/local/lib/python3.13/site-packages/transformers/models/__init__.py (4567ms)
+2025-10-30 01:01:41.474 [info] (202211) BG: [IDX(5)] Long operation: binding: file:///usr/local/lib/python3.13/site-packages/transformers/__init__.py (4588ms)
+2025-10-30 01:01:42.068 [info] (202211) BG: [IDX(5)] Long operation: indexing: file:///usr/local/lib/python3.13/site-packages/transformers/__init__.py (5221ms)
+2025-10-30 01:01:43.830 [info] (202211) BG: [IDX(5)] Long operation: index execution environment file:///home/friz/programming/code/sandbox (9501ms)
+2025-10-30 01:01:43.872 [info] (202211) BG: [IDX(5)] Long operation: index packages file:///home/friz/programming/code/sandbox (9568ms)
+2025-10-30 01:01:43.872 [info] (202211) BG: indexed(5) 378 files over 1 exec env
+2025-10-30 01:01:44.050 [info] (202211) BG: Indexing finished(5).
