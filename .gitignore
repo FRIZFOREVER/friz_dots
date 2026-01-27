@@ -1,0 +1,13 @@
+*
+!.gitignore
+!hypr/**
+!hypr/
+!nvim/**
+!nvim/
+!illogical-impulse/**
+!illogical-impulse/
+!kitty/**
+!kitty/
+!quickshell/**
+!quickshell/
+!starship.toml
