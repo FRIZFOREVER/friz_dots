@@ -18,9 +18,7 @@ return {
       astrodark = { -- a table of overrides/changes when applying the astrotheme theme
         -- Normal = { bg = "#000000" },
       },
-      catppuccin = {
-        -- overrides ONLY when applying the "catppuccin" colorscheme
-      },
+      catppuccin = {},
     },
     -- Icons can be configured throughout the interface
     icons = {

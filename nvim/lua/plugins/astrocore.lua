@@ -50,6 +50,22 @@ return {
         -- This can be found in the `lua/lazy_setup.lua` file
       },
     },
+
+    -- autocmds = {
+    --   markdown_view = {
+    --     {
+    --       event = "FileType",
+    --       pattern = { "markdown", "quarto" },
+    --       desc = "Enable better wrapped Markdown viewing",
+    --       callback = function()
+    --         vim.opt_local.wrap = true
+    --         vim.opt_local.linebreak = true
+    --         vim.opt_local.nolist = true
+    --         vim.opt_local.conceallevel = 2
+    --       end,
+    --     },
+    --   },
+    -- },
     -- Mappings can be configured through AstroCore as well.
     -- NOTE: keycodes follow the casing in the vimdocs. For example, `<Leader>` must be capitalized
     mappings = {

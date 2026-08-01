@@ -7,6 +7,7 @@ import QtQuick
 import Qt.labs.folderlistmodel
 import Quickshell
 import Quickshell.Io
+import Quickshell.Hyprland
 
 Singleton {
     id: root
@@ -108,7 +109,7 @@ Singleton {
         {
             action: "wallpaper",
             execute: () => {
-                GlobalStates.wallpaperSelectorOpen = true;
+                Hyprland.dispatch(`hl.dsp.global("quickshell:wallpaperSelectorToggle")`)
             }
         },
         {
@@ -287,7 +288,14 @@ Singleton {
                 if (cleanedCommand.startsWith(Config.options.search.prefix.shellCommand)) {
                     cleanedCommand = cleanedCommand.slice(Config.options.search.prefix.shellCommand.length);
                 }
-                Quickshell.execDetached(["bash", "-c", root.query.startsWith('sudo') ? `${Config.options.apps.terminal} fish -C '${cleanedCommand}'` : cleanedCommand]);
+                const loginShell = Quickshell.env("SHELL") || "/usr/bin/zsh";
+                Quickshell.execDetached([
+                    "bash",
+                    "-c",
+                    root.query.startsWith('sudo')
+                    ? `${Config.options.apps.terminal} ${loginShell} -ic '${StringUtils.shellSingleQuoteEscape(cleanedCommand)}'`
+                    : cleanedCommand
+                ]);
             }
         });
         const webSearchResultObject = resultComp.createObject(null, {
