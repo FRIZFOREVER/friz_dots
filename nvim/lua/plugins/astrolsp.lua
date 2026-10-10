@@ -6,6 +6,28 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrolsp",
+  init = function()
+    vim.api.nvim_create_autocmd({ "VimEnter", "DirChanged" }, {
+      group = vim.api.nvim_create_augroup("ty_workspace_diagnostics", { clear = true }),
+      desc = "Start ty checks without opening a Python file",
+      callback = function()
+        vim.schedule(function()
+          local root = vim.fs.root(vim.fn.getcwd(), {
+            "ty.toml",
+            "pyproject.toml",
+            "setup.py",
+            "setup.cfg",
+            "requirements.txt",
+          })
+          if not root then return end
+          require("lazy").load { plugins = { "nvim-lspconfig" } }
+          if not vim.lsp.config.ty then require("astrolsp").lsp_setup "ty" end
+          local config = vim.tbl_extend("force", vim.lsp.config.ty, { name = "ty", root_dir = root })
+          vim.lsp.start(config, { attach = false })
+        end)
+      end,
+    })
+  end,
   ---@type AstroLSPOpts
   opts = {
     -- Configuration table of features provided by AstroLSP
@@ -37,32 +59,49 @@ return {
     },
     -- enable servers that you already have installed without mason
     servers = {
-      "basedpyright",
+      "ty",
       "ruff",
     },
     -- customize language server configuration options passed to `lspconfig`
     ---@diagnostic disable: missing-fields
     config = {
       -- clangd = { capabilities = { offsetEncoding = "utf-8" } },
-      basedpyright = {
+      ty = {
+        -- Define ty explicitly for older nvim-lspconfig installations.
+        cmd = { "ty", "server" },
+        filetypes = { "python" },
+        root_markers = {
+          "ty.toml",
+          "pyproject.toml",
+          "setup.py",
+          "setup.cfg",
+          "requirements.txt",
+          ".git",
+        },
+        -- Make workspace diagnostics available as soon as ty initializes.
+        capabilities = { textDocument = { diagnostic = { dynamicRegistration = false } } },
+        on_init = function(client)
+          if client:supports_method "workspace/diagnostic" then
+            vim.lsp.buf.workspace_diagnostics { client_id = client.id }
+          end
+        end,
         settings = {
-          basedpyright = {
-            analysis = {
-              -- strict by default, but can be overridden by project config
-              typeCheckingMode = "strict", -- :contentReference[oaicite:2]{index=2}
-
-              -- analyze the whole workspace (not just open files)
-              diagnosticMode = "workspace", -- :contentReference[oaicite:3]{index=3}
-
-              -- usually helpful for src/ layouts if you don't define executionEnvironments
-              autoSearchPaths = true,
-            },
+          ty = {
+            -- Report diagnostics for unopened files in the workspace too.
+            diagnosticMode = "workspace",
           },
         },
       },
     },
     -- customize how language servers are attached
     handlers = {
+      -- Native startup lets Python buffers reuse the background client.
+      ty = function(_, opts)
+        vim.lsp.config("ty", opts)
+        vim.lsp.enable "ty"
+      end,
+      -- The Python community pack also enables basedpyright.
+      basedpyright = false,
       -- a function without a key is simply the default handler, functions take two parameters, the server name and the configured options table for that server
       -- function(server, opts) require("lspconfig")[server].setup(opts) end
 
