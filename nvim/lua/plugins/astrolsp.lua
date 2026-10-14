@@ -3,9 +3,69 @@
 -- NOTE: We highly recommend setting up the Lua Language Server (`:LspInstall lua_ls`)
 --       as this provides autocomplete and documentation while editing
 
+local python_markers = { "ty.toml", "pyproject.toml", "setup.py", "setup.cfg", "requirements.txt" }
+
+local function python_workspace_root(cwd)
+  cwd = vim.uv.fs_realpath(cwd) or vim.fs.normalize(cwd)
+  local root = vim.fs.root(cwd, python_markers)
+  if root then return root end
+
+  local boundary = vim.fs.root(cwd, ".git") or cwd
+  boundary = vim.uv.fs_realpath(boundary) or boundary
+  local function inside(path)
+    return path == boundary or path:sub(1, #boundary + 1) == boundary .. "/"
+  end
+  local function has_marker(path)
+    for _, marker in ipairs(python_markers) do
+      local stat = vim.uv.fs_stat(path .. "/" .. marker)
+      if stat and stat.type == "file" then return true end
+    end
+    return false
+  end
+
+  local environment = vim.env.VIRTUAL_ENV
+  local environment_path = environment and vim.uv.fs_realpath(environment)
+  if environment_path and inside(environment_path) then
+    local path = vim.fs.dirname(environment_path)
+    while inside(path) do
+      if has_marker(path) then return path end
+      if path == boundary then break end
+      path = vim.fs.dirname(path)
+    end
+  end
+
+  -- Only select a child project when the choice is unambiguous.
+  local candidate
+  for name, kind in vim.fs.dir(cwd) do
+    if kind == "directory" and name:sub(1, 1) ~= "." then
+      local path = cwd .. "/" .. name
+      if has_marker(path) then
+        if candidate then return nil end
+        candidate = path
+      end
+    end
+  end
+  return candidate
+end
+
 ---@type LazySpec
 return {
   "AstroNvim/astrolsp",
+  init = function()
+    vim.api.nvim_create_autocmd({ "VimEnter", "DirChanged" }, {
+      group = vim.api.nvim_create_augroup("ty_workspace_diagnostics", { clear = true }),
+      desc = "Start ty checks without opening a Python file",
+      callback = function()
+        vim.schedule(function()
+          local root = python_workspace_root(vim.fn.getcwd())
+          if not root then return end
+          require("lazy").load { plugins = { "astrolsp" } }
+          local config = vim.tbl_extend("force", vim.lsp.config.ty, { name = "ty", root_dir = root })
+          vim.lsp.start(config, { attach = false })
+        end)
+      end,
+    })
+  end,
   ---@type AstroLSPOpts
   opts = {
     -- Configuration table of features provided by AstroLSP
@@ -37,39 +97,42 @@ return {
     },
     -- enable servers that you already have installed without mason
     servers = {
-      "basedpyright",
+      "ty",
       "ruff",
     },
-    -- customize language server configuration options passed to `lspconfig`
+    -- customize native language server configuration
     ---@diagnostic disable: missing-fields
     config = {
-      -- clangd = { capabilities = { offsetEncoding = "utf-8" } },
-      basedpyright = {
+      lua_ls = { settings = { Lua = { format = { enable = false } } } },
+      ty = {
+        -- Start workspace checks before opening Python files.
+        cmd = { "ty", "server" },
+        filetypes = { "python" },
+        root_markers = {
+          "ty.toml",
+          "pyproject.toml",
+          "setup.py",
+          "setup.cfg",
+          "requirements.txt",
+          ".git",
+        },
+        -- Make workspace diagnostics available as soon as ty initializes.
+        capabilities = { textDocument = { diagnostic = { dynamicRegistration = false } } },
+        on_init = function(client)
+          if client:supports_method "workspace/diagnostic" then
+            vim.lsp.buf.workspace_diagnostics { client_id = client.id }
+          end
+        end,
         settings = {
-          basedpyright = {
-            analysis = {
-              -- strict by default, but can be overridden by project config
-              typeCheckingMode = "strict", -- :contentReference[oaicite:2]{index=2}
-
-              -- analyze the whole workspace (not just open files)
-              diagnosticMode = "workspace", -- :contentReference[oaicite:3]{index=3}
-
-              -- usually helpful for src/ layouts if you don't define executionEnvironments
-              autoSearchPaths = true,
-            },
+          ty = {
+            -- Report diagnostics for unopened files in the workspace too.
+            diagnosticMode = "workspace",
           },
         },
       },
     },
-    -- customize how language servers are attached
-    handlers = {
-      -- a function without a key is simply the default handler, functions take two parameters, the server name and the configured options table for that server
-      -- function(server, opts) require("lspconfig")[server].setup(opts) end
-
-      -- the key is the server that is being setup with `lspconfig`
-      -- rust_analyzer = false, -- setting a handler to false will disable the set up of that language server
-      -- pyright = function(_, opts) require("lspconfig").pyright.setup(opts) end -- or a custom handler function can be passed
-    },
+    -- Keep previously installed alternative Python servers from auto-enabling.
+    handlers = { basedpyright = false, pyright = false, pyrefly = false },
     -- Configure buffer local auto commands to add when attaching a language server
     autocmds = {
       -- first key is the `augroup` to add the auto commands to (:h augroup)
@@ -105,7 +168,7 @@ return {
           function() require("astrolsp.toggles").buffer_semantic_tokens() end,
           desc = "Toggle LSP semantic highlight (buffer)",
           cond = function(client)
-            return client.supports_method "textDocument/semanticTokens/full" and vim.lsp.semantic_tokens ~= nil
+            return client:supports_method("textDocument/semanticTokens/full") and vim.lsp.semantic_tokens ~= nil
           end,
         },
       },

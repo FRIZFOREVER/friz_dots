@@ -9,7 +9,7 @@ return {
   ---@type AstroUIOpts
   opts = {
     -- change colorscheme
-    colorscheme = "catppuccin",
+    colorscheme = "kanagawa-dragon",
     -- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
     highlights = {
       init = { -- this table overrides highlights in all themes
@@ -18,9 +18,7 @@ return {
       astrodark = { -- a table of overrides/changes when applying the astrotheme theme
         -- Normal = { bg = "#000000" },
       },
-      catppuccin = {
-        -- overrides ONLY when applying the "catppuccin" colorscheme
-      },
+      ["kanagawa-dragon"] = {},
     },
     -- Icons can be configured throughout the interface
     icons = {

@@ -1,52 +1,32 @@
-# fastfetch
-if [[ -o interactive ]] && command -v fastfetch >/dev/null 2>&1; then
-  fastfetch
-fi
-
-# Prompt
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
-# Path to your Oh My Zsh installation.
+# Oh My Zsh
 export ZSH="$HOME/.oh-my-zsh"
-
-# Gets re-introduced later with starship
 ZSH_THEME=""
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+source "$ZSH/oh-my-zsh.sh"
 
-# Update
-zstyle ':omz:update' mode auto      # update automatically without asking
+# Tools
+source <(fzf --zsh)
 
-# Uncomment the following line to change how often to auto-update (in days).
-zstyle ':omz:update' frequency 2
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	IFS= read -r -d '' cwd < "$tmp"
+	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
+	rm -f -- "$tmp"
+}
 
-# Uncomment the following line if pasting URLs and other text is messed up.
-# DISABLE_MAGIC_FUNCTIONS="true"
+export NVM_DIR="$HOME/.nvm"
+[[ -s "$NVM_DIR/nvm.sh" ]] && source "$NVM_DIR/nvm.sh"
+[[ -s "$NVM_DIR/bash_completion" ]] && source "$NVM_DIR/bash_completion"
 
-# Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
-
-# Plugins on startup
-plugins=(
-  git
-  zsh-autosuggestions
-  zsh-syntax-highlighting
-)
-
-source $ZSH/oh-my-zsh.sh
-
-# editors
+# Editors
 export VISUAL="nvim"
 export EDITOR="nvim"
 
-# better cd
-eval "$(zoxide init zsh)"
+# Paths
+export PATH="$HOME/bin:$HOME/.local/bin:$HOME/.local/lib/npm/bin:$PATH:$HOME/.spicetify"
 
-# fzf keybindings + completion (Arch path)
-source /usr/share/fzf/key-bindings.zsh
-source /usr/share/fzf/completion.zsh
-
-# nicer defaults (optional)
+# File navigation and display
 alias ls='eza --group-directories-first --icons'
 alias la='eza -A --group-directories-first --icons'
 alias ll='eza -lah --group-directories-first --icons'
@@ -55,45 +35,32 @@ alias cat='bat'
 alias find='fd'
 
 # Editing
-alias vi="nvim"
-alias vim="nvim"
-alias nv="nvim ."
+alias vi='nvim'
+alias vim='nvim'
+alias nv='nvim .'
+alias uvjupyter='uv run --with jupyter jupyter lab'
 
-# git
+# Git
 alias ga='git add .'
 alias gc='git commit -m'
-alias gs='git switch'
 alias gf='git fetch origin'
 alias gl='git pull'
 alias gp='git push'
 alias gs='git status'
 alias gw='git switch'
 
-# dev
-# alias py='python3'
-# alias pip='pip3'
+# Development
 alias venva='source .venv/bin/activate'
 alias dcu='docker compose up --build'
 alias dcd='docker compose down'
-alias dcud='docker compose -f compose.yml -f compose.dev.yml up --build'
+alias dcud='docker compose up --build --watch'
 
-# cli showoff
+# Miscellaneous
 alias pipes='pipes -t 1 -f 100 -R -p 2'
+alias phone='kdeconnect-cli --device 8ca1dc58f3ad404a9a45014279fe079a --share'
+alias scrcpy='adb connect 10.173.214.103:5555 >/dev/null 2>&1 && command scrcpy'
 
-# Reuse one ssh-agent across shells; load GitHub key once per login/boot
-eval "$(keychain --quiet --eval ~/.ssh/id_ed25519)"
-
-# History like fish: shared, incremental, no duplicates
-HISTFILE=~/.zsh_history
-HISTSIZE=10000
-SAVEHIST=10000
-
-setopt APPEND_HISTORY
-setopt SHARE_HISTORY
-setopt HIST_IGNORE_ALL_DUPS
-setopt HIST_SAVE_NO_DUPS
-setopt HIST_REDUCE_BLANKS
-setopt INC_APPEND_HISTORY
+# Fastfetch and prompt
+[[ -o interactive ]] && command -v fastfetch >/dev/null 2>&1 && fastfetch
+eval "$(zoxide init zsh)"
 eval "$(starship init zsh)"
-
-source ~/.config/zshrc.d/auto-Hypr.sh
